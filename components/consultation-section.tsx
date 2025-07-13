@@ -32,7 +32,7 @@ export default function ConsultationSection() {
   }
 
   return (
-    <section className="bg-gradient-to-br from-green-50 via-green-100 to-green-200 py-12 sm:py-16 px-4 sm:px-8 relative z-30">
+    <section className="py-12 sm:py-16 px-4 sm:px-8 relative z-30">
       <div className="max-w-7xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-8 sm:gap-12 items-center">
           {/* Left Side - Content */}
@@ -48,7 +48,7 @@ export default function ConsultationSection() {
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 leading-tight font-satoshi">
               <span className="text-[#01594d]">Interested In</span>
               <br />
-              <span className="text-green-500">working with us?</span>
+              <span className="text-[#80D54B]">working with us?</span>
             </h2>
 
             <p className="text-lg sm:text-xl text-[#01594d] mb-6 font-semibold">Learn more about our services:</p>
@@ -118,7 +118,7 @@ export default function ConsultationSection() {
                   className="w-full bg-green-500 hover:bg-green-600 text-white font-semibold py-3 px-6 rounded-lg shadow-md transition-all duration-300 flex items-center justify-center space-x-2 disabled:opacity-50 disabled:cursor-not-allowed text-sm sm:text-base"
                 >
                   <div className="w-5 h-5 bg-white rounded-full flex items-center justify-center">
-                    <span className="text-green-500 text-xs font-bold">✓</span>
+                    <span className="text-[#80D54B] text-xs font-bold">✓</span>
                   </div>
                   <span>{formState.loading ? "Sending..." : "Get a solution"}</span>
                 </button>

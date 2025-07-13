@@ -136,7 +136,7 @@ const testimonials = {
 
 export default function TestimonialsSection() {
   return (
-    <section className="bg-gradient-to-br from-green-50 via-green-100 to-green-200 py-12 sm:py-16 px-4 sm:px-8 relative z-30 overflow-hidden">
+    <section className="py-12 sm:py-16 px-4 sm:px-8 relative z-30 overflow-hidden">
       {/* Blur effects */}
       <div className="absolute top-0 left-0 right-0 h-32 sm:h-40 bg-gradient-to-b from-green-100 via-green-100/90 via-green-100/70 via-green-100/40 via-green-100/20 to-transparent z-20 pointer-events-none"></div>
       <div className="absolute bottom-0 left-0 right-0 h-32 sm:h-40 bg-gradient-to-t from-green-100 via-green-100/90 via-green-100/70 via-green-100/40 via-green-100/20 to-transparent z-20 pointer-events-none"></div>
@@ -160,7 +160,7 @@ export default function TestimonialsSection() {
         <div className="text-center mb-12 relative z-30">
           <h2 className="text-3xl sm:text-4xl lg:text-6xl font-bold mb-6 leading-tight font-satoshi">
             <span className="text-[#01594d]">What do the </span>
-            <span className="text-green-500">best creators</span>
+            <span className="text-[#80D54B]">best creators</span>
             <span className="text-[#01594d]"> say about us</span>
           </h2>
           <p className="text-lg sm:text-xl text-[#01594d] max-w-4xl mx-auto leading-relaxed px-4">

@@ -67,24 +67,25 @@ export default function HeroSection({ onViewPricing }: HeroSectionProps) {
                   <Star key={i} className="w-4 h-4 sm:w-5 sm:h-5 fill-yellow-400 text-yellow-400" />
                 ))}
               </div>
-              <div className="text-base sm:text-lg font-medium text-center md:text-left">
-                <span className="text-gray-700">Trusted By The </span> <br />
-                <span className="text-green-500 font-bold">Best Creators</span>
+              <div className="text-center md:text-left font-[700]  str-t text-[15.73px] leading-[16.3px] capitalize">
+                <div className="text-gray-700">Trusted By The</div>
+                <div className="text-[#80D54B] font-bold">Best Creators</div>
               </div>
+
             </div>
           </div>
 
           {/* Main Heading */}
-          <h1 className="text-3xl sm:text-5xl lg:text-7xl font-bold mb-6 leading-tight font-satoshi">
+          <h1 className="heading_cus text-3xl sm:text-5xl lg:text-7xl font-bold mb-6 leading-tight font-satoshi">
             <span className="text-[#01594d]">Crafting Bold, </span>
-            <span className="text-green-500">Impactful</span>
+            <span className="text-[#80D54B]">Impactful</span>
             <br />
-            <span className="text-green-500">Designs </span>
+            <span className="text-[#80D54B]">Designs </span>
             <span className="text-[#01594d]">For Your Brand</span>
           </h1>
 
           {/* Subtitle */}
-          <p className="text-lg sm:text-xl text-[#01594d] mb-10 max-w-3xl mx-auto leading-relaxed px-4">
+          <p className="p-cus text-lg sm:text-xl text-[#01594d] mb-10 max-w-3xl mx-auto leading-relaxed px-4">
             Designing brands that don't just catch eyes but capture hearts,
             <br className="hidden sm:block" />
             Create a deep and emotional connection with your audience.
@@ -93,11 +94,15 @@ export default function HeroSection({ onViewPricing }: HeroSectionProps) {
           {/* CTA Button */}
           <Button
             onClick={onViewPricing}
-            className="bg-[#01594d] hover:bg-green-800 text-white px-6 sm:px-8 py-3 sm:py-4 text-base sm:text-lg rounded-xl shadow-lg transform transition-all duration-300 hover:scale-105"
+            className="bg-[#01594d] button_cus hover:bg-green-800 text-white px-6 sm:px-8 py-3 sm:py-4 text-base sm:text-lg rounded-xl shadow-lg transform transition-all duration-300 hover:scale-105"
           >
             <div className="flex items-center space-x-3">
               <div className="w-5 h-5 sm:w-6 sm:h-6 bg-green-400 rounded-md flex items-center justify-center">
-                <span className="text-white text-xs sm:text-sm font-bold">✓</span>
+                <span className="text-white text-xs sm:text-sm font-bold">
+                  <div className="w-10 h-10 bg-[#A8EB87] rounded-lg flex items-center justify-center">
+                    <img src="/Tags.png" alt="Tag Icon" className="w-6 h-6" />
+                  </div>
+                </span>
               </div>
               <span className="font-semibold">View Our Pricing</span>
             </div>
@@ -109,8 +114,8 @@ export default function HeroSection({ onViewPricing }: HeroSectionProps) {
       <TestimonialCard
         name="Charlie Hills"
         text="I'm Working Closely With Him, Speaking With Him Most Days. He's A Great Person, He's Super Hardworking, Super Easy To Get Along With"
-        className={`hidden lg:block absolute top-32 right-8 w-80 bg-white shadow-xl rounded-xl transform transition-all duration-1000 ${testimonialsVisible ? "translate-x-0 opacity-100" : "translate-x-full opacity-0"
-          } delay-200 z-40`}
+        className={`hidden lg:block absolute top-28 cus-card right-8 w-80 bg-white shadow-xl rounded-xl transform transition-all duration-1000 ${testimonialsVisible ? "translate-x-0 opacity-100" : "translate-x-full opacity-0"
+          } delay-20 z-40`}
         image="/images/Ellipse72.png"
 
       />
@@ -118,8 +123,8 @@ export default function HeroSection({ onViewPricing }: HeroSectionProps) {
       <TestimonialCard
         name="Fatima Khan"
         text="His Work Ethic Is What Impresses Me The Most. I've Worked With Many Designers In The Past, And Let Me Tell You - Obedullah's A Champ!"
-        className={`hidden lg:block absolute top-44 left-8 -translate-y-1/2 w-80 bg-white shadow-xl rounded-xl transform transition-all duration-1000 ${testimonialsVisible ? "translate-x-0 opacity-100" : "-translate-x-full opacity-0"
-          } delay-200 z-40`}
+        className={`hidden lg:block absolute top-44 cus-card left-8 translate-y-60 w-80 bg-white shadow-xl rounded-xl transform transition-all duration-1000 ${testimonialsVisible ? "translate-x-0 opacity-100" : "-translate-x-full opacity-0"
+          } delay-20 z-40`}
         image="/images/Ellipse746.png"
 
       />
@@ -127,8 +132,8 @@ export default function HeroSection({ onViewPricing }: HeroSectionProps) {
       <TestimonialCard
         name="Ayesha Ameer"
         text="If You're Looking For Someone To Elevate Your LinkedIn Profile Or Assist With Design Projects, I Highly Recommend Him"
-        className={`hidden lg:block absolute top-22 right-8 -translate-y-1/2 w-80 bg-white shadow-xl rounded-xl transform transition-all duration-1000 ${testimonialsVisible ? "translate-x-0 opacity-100" : "translate-x-full opacity-0"
-          } delay-200 z-40`}
+        className={`hidden lg:block absolute top-22 cus-ayesha cus-card  -translate-y-1/2 w-80 bg-white shadow-xl rounded-xl transform transition-all duration-1000 ${testimonialsVisible ? "translate-x-0 opacity-100" : "translate-x-full opacity-0"
+          } delay-20 z-40`}
         image="/images/Ellipse4.png"
 
       />
@@ -138,8 +143,8 @@ export default function HeroSection({ onViewPricing }: HeroSectionProps) {
 
 function TestimonialCard({ name, text, image, className }: { name: string; text: string; image: string; className: string }) {
   return (
-    <Card className={className}>
-      <CardContent className="p-2 cus-card">
+    <Card className={className} >
+      <CardContent className="p-2 ">
         <div className="flex items-start space-x-3">
           <Image src={image} alt={name} width={50} height={50} className="rounded-full" />
           <div>

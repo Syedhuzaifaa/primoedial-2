@@ -29,7 +29,7 @@ export default function PrimordialComplete() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-green-50 via-green-100 to-green-200 relative">
+    <div className="min-h-screen relative">
       <Header />
 
       <HeroSection onViewPricing={handleViewPricing} />
@@ -40,9 +40,10 @@ export default function PrimordialComplete() {
 
       <BrandGenesisSection />
 
-      <CarouselSlider />
 
       <PortfolioSection />
+      
+      <CarouselSlider />
 
       <BrandingQuestionnaireSection />
 

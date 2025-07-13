@@ -3,13 +3,13 @@
 import Image from "next/image"
 
 const carouselProfiles = [
-  { name: "Fatima Khan", followers: "1000+ Followers", image: "/placeholder.svg?height=60&width=60" },
-  { name: "Ayesha Ameer", followers: "51,000+ Followers", image: "/placeholder.svg?height=60&width=60" },
-  { name: "Saijal Taparia", followers: "31,000+ Followers", image: "/placeholder.svg?height=60&width=60" },
-  { name: "Daniel Korenblum", followers: "56,000+ Followers", image: "/placeholder.svg?height=60&width=60" },
-  { name: "John Smith", followers: "75,000+ Followers", image: "/placeholder.svg?height=60&width=60" },
-  { name: "Sarah Wilson", followers: "42,000+ Followers", image: "/placeholder.svg?height=60&width=60" },
-  { name: "Mike Johnson", followers: "38,000+ Followers", image: "/placeholder.svg?height=60&width=60" },
+  { name: "Fatima Khan", followers: "56,000+ Followers", image: "/images/Ellipse746.png?height=60&width=60" },
+  { name: "Ayesha Ameer", followers: "51,000+ Followers", image: "/images/Ellipse74.png?height=60&width=60" },
+  { name: "Sajjal Taparia", followers: "25,000+ Followers", image: "/images/Ellipse4.png?height=60&width=60" },
+  { name: "Daniel Korenblum", followers: "40,000+ Followers", image: "/images/Ellipse7.png?height=60&width=60" },
+  { name: "Charlie Hills", followers: "53,000+ Followers", image: "/images/Ellipse72.png?height=60&width=60" },
+  // { name: "Sarah Wilson", followers: "42,000+ Followers", image: "/placeholder.svg?height=60&width=60" },
+  // { name: "Mike Johnson", followers: "38,000+ Followers", image: "/placeholder.svg?height=60&width=60" },
 ]
 
 export default function CarouselSlider() {

@@ -36,7 +36,7 @@ export default function LinkedInRebrandPricing() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-green-50 via-green-100 to-green-200 relative">
+    <div className="min-h-screen relative">
       {/* Header */}
       <header className="bg-[#01594d] text-white px-4 sm:px-8 py-4 rounded-3xl mx-4 sm:mx-8 mt-6 relative z-50 shadow-lg">
         <nav className="max-w-7xl mx-auto flex items-center justify-between">
@@ -142,7 +142,7 @@ export default function LinkedInRebrandPricing() {
 
           <div className="text-center mb-16">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 leading-tight font-satoshi">
-              <span className="text-green-500">LinkedIn</span> <span className="text-[#01594d]">Rebrand Packages</span>
+              <span className="text-[#80D54B]">LinkedIn</span> <span className="text-[#01594d]">Rebrand Packages</span>
             </h1>
             <p className="text-xl text-[#01594d] max-w-2xl mx-auto leading-relaxed">
               The <span className="font-bold">best services</span> at the <span className="font-bold">best prices</span>
@@ -164,23 +164,23 @@ export default function LinkedInRebrandPricing() {
 
                 <div className="space-y-4 mb-8">
                   <div className="flex items-center space-x-3">
-                    <Check className="w-5 h-5 text-green-500" />
+                    <Check className="w-5 h-5 text-[#80D54B]" />
                     <span className="text-gray-700">1x Banner Design</span>
                   </div>
                   <div className="flex items-center space-x-3">
-                    <Check className="w-5 h-5 text-green-500" />
+                    <Check className="w-5 h-5 text-[#80D54B]" />
                     <span className="text-gray-700">2x Featured Images</span>
                   </div>
                   <div className="flex items-center space-x-3">
-                    <Check className="w-5 h-5 text-green-500" />
+                    <Check className="w-5 h-5 text-[#80D54B]" />
                     <span className="text-gray-700">Source Files Included</span>
                   </div>
                   <div className="flex items-center space-x-3">
-                    <Check className="w-5 h-5 text-green-500" />
+                    <Check className="w-5 h-5 text-[#80D54B]" />
                     <span className="text-gray-700">2 Revisions</span>
                   </div>
                   <div className="flex items-center space-x-3">
-                    <Check className="w-5 h-5 text-green-500" />
+                    <Check className="w-5 h-5 text-[#80D54B]" />
                     <span className="text-gray-700">4-5 Days Delivery</span>
                   </div>
                 </div>
@@ -248,23 +248,23 @@ export default function LinkedInRebrandPricing() {
 
                 <div className="space-y-4 mb-8">
                   <div className="flex items-center space-x-3">
-                    <Check className="w-5 h-5 text-green-500" />
+                    <Check className="w-5 h-5 text-[#80D54B]" />
                     <span className="text-gray-700">2x Slideshows Banner</span>
                   </div>
                   <div className="flex items-center space-x-3">
-                    <Check className="w-5 h-5 text-green-500" />
+                    <Check className="w-5 h-5 text-[#80D54B]" />
                     <span className="text-gray-700">3x Featured Cards</span>
                   </div>
                   <div className="flex items-center space-x-3">
-                    <Check className="w-5 h-5 text-green-500" />
+                    <Check className="w-5 h-5 text-[#80D54B]" />
                     <span className="text-gray-700">Source Files Included</span>
                   </div>
                   <div className="flex items-center space-x-3">
-                    <Check className="w-5 h-5 text-green-500" />
+                    <Check className="w-5 h-5 text-[#80D54B]" />
                     <span className="text-gray-700">4 Revisions</span>
                   </div>
                   <div className="flex items-center space-x-3">
-                    <Check className="w-5 h-5 text-green-500" />
+                    <Check className="w-5 h-5 text-[#80D54B]" />
                     <span className="text-gray-700">4-5 Days Delivery</span>
                   </div>
                 </div>

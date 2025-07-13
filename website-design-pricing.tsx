@@ -183,7 +183,7 @@ export default function WebsiteDesignPricing() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-green-50 via-green-100 to-green-200 relative">
+    <div className="min-h-screen relative">
       {/* Back Button - Outside Header */}
       <div className="fixed top-8 left-8 z-50">
         <button
@@ -301,7 +301,7 @@ export default function WebsiteDesignPricing() {
           {/* Main Heading */}
           <div className="text-center mb-16">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 leading-tight font-satoshi">
-              <span className="text-green-500">Flexible</span>{" "}
+              <span className="text-[#80D54B]">Flexible</span>{" "}
               <span className="text-[#01594d]">Pricing For All Creators</span>
             </h1>
             <p className="text-xl text-[#01594d] max-w-2xl mx-auto leading-relaxed">
@@ -324,23 +324,23 @@ export default function WebsiteDesignPricing() {
 
                 <div className="space-y-4 mb-8">
                   <div className="flex items-center space-x-3">
-                    <Check className="w-5 h-5 text-green-500" />
+                    <Check className="w-5 h-5 text-[#80D54B]" />
                     <span className="text-gray-700">Responsive Design</span>
                   </div>
                   <div className="flex items-center space-x-3">
-                    <Check className="w-5 h-5 text-green-500" />
+                    <Check className="w-5 h-5 text-[#80D54B]" />
                     <span className="text-gray-700">WordPress Development</span>
                   </div>
                   <div className="flex items-center space-x-3">
-                    <Check className="w-5 h-5 text-green-500" />
+                    <Check className="w-5 h-5 text-[#80D54B]" />
                     <span className="text-gray-700">Conversion Optimization</span>
                   </div>
                   <div className="flex items-center space-x-3">
-                    <Check className="w-5 h-5 text-green-500" />
+                    <Check className="w-5 h-5 text-[#80D54B]" />
                     <span className="text-gray-700">Strategic Copywriting</span>
                   </div>
                   <div className="flex items-center space-x-3">
-                    <Check className="w-5 h-5 text-green-500" />
+                    <Check className="w-5 h-5 text-[#80D54B]" />
                     <span className="text-gray-700">GA4 Setup</span>
                   </div>
                 </div>
@@ -404,23 +404,23 @@ export default function WebsiteDesignPricing() {
 
                 <div className="space-y-4 mb-8">
                   <div className="flex items-center space-x-3">
-                    <Check className="w-5 h-5 text-green-500" />
+                    <Check className="w-5 h-5 text-[#80D54B]" />
                     <span className="text-gray-700">4-5 Page Included</span>
                   </div>
                   <div className="flex items-center space-x-3">
-                    <Check className="w-5 h-5 text-green-500" />
+                    <Check className="w-5 h-5 text-[#80D54B]" />
                     <span className="text-gray-700">Responsive Design</span>
                   </div>
                   <div className="flex items-center space-x-3">
-                    <Check className="w-5 h-5 text-green-500" />
+                    <Check className="w-5 h-5 text-[#80D54B]" />
                     <span className="text-gray-700">WordPress Development</span>
                   </div>
                   <div className="flex items-center space-x-3">
-                    <Check className="w-5 h-5 text-green-500" />
+                    <Check className="w-5 h-5 text-[#80D54B]" />
                     <span className="text-gray-700">Strategic Copywriting</span>
                   </div>
                   <div className="flex items-center space-x-3">
-                    <Check className="w-5 h-5 text-green-500" />
+                    <Check className="w-5 h-5 text-[#80D54B]" />
                     <span className="text-gray-700">GA4 Setup</span>
                   </div>
                 </div>
@@ -435,7 +435,7 @@ export default function WebsiteDesignPricing() {
       </main>
 
       {/* Testimonials Section */}
-      <section className="bg-gradient-to-br from-green-50 via-green-100 to-green-200 py-12 sm:py-16 px-4 sm:px-8 relative z-30 overflow-hidden">
+      <section className="py-12 sm:py-16 px-4 sm:px-8 relative z-30 overflow-hidden">
         {/* Top blur effect - Enhanced and more visible */}
         <div className="absolute top-0 left-0 right-0 h-32 sm:h-40 bg-gradient-to-b from-green-100 via-green-100/90 via-green-100/70 via-green-100/40 via-green-100/20 to-transparent z-20 pointer-events-none"></div>
 
@@ -465,7 +465,7 @@ export default function WebsiteDesignPricing() {
           <div className="text-center mb-12 relative z-30">
             <h2 className="text-3xl sm:text-4xl lg:text-6xl font-bold mb-6 leading-tight font-satoshi">
               <span className="text-[#01594d]">What do the </span>
-              <span className="text-green-500">best creators</span>
+              <span className="text-[#80D54B]">best creators</span>
               <span className="text-[#01594d]"> say about us</span>
             </h2>
             <p className="text-lg sm:text-xl text-[#01594d] max-w-4xl mx-auto leading-relaxed px-4">
@@ -587,12 +587,12 @@ export default function WebsiteDesignPricing() {
       </section>
 
       {/* Want To Get In Touch Section */}
-      <section className="bg-gradient-to-br from-green-50 via-green-100 to-green-200 py-12 sm:py-16 px-4 sm:px-8 relative z-30">
+      <section className="py-12 sm:py-16 px-4 sm:px-8 relative z-30">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 leading-tight font-satoshi">
             <span className="text-[#01594d]">Want To Get In</span>
             <br />
-            <span className="text-green-500">Touch With Us?</span>
+            <span className="text-[#80D54B]">Touch With Us?</span>
           </h2>
 
           <p className="text-lg sm:text-xl text-[#01594d] mb-8 leading-relaxed">
@@ -604,7 +604,7 @@ export default function WebsiteDesignPricing() {
           <Button className="bg-green-400 hover:bg-green-500 text-black font-bold py-4 px-8 rounded-xl shadow-lg text-lg">
             <div className="flex items-center space-x-3">
               <div className="w-6 h-6 bg-white rounded-full flex items-center justify-center">
-                <span className="text-green-500 text-sm font-bold">✓</span>
+                <span className="text-[#80D54B] text-sm font-bold">✓</span>
               </div>
               <span>Book a 1:1 Design Consultation Call</span>
             </div>

@@ -40,20 +40,21 @@ export default function PricingSection() {
   return (
     <section
       id="pricing"
-      className="bg-gradient-to-br from-green-50 via-green-100 to-green-200 py-12 sm:py-16 px-4 sm:px-8 relative z-30"
+      className="py-12 sm:py-16 px-4 sm:px-8 relative z-30"
     >
       <div className="max-w-6xl mx-auto">
         {/* Badge */}
-        <div className="flex justify-center mb-8">
-          <div className="bg-white border border-gray-200 rounded-full px-6 py-3 shadow-sm">
+        <div className="flex mx-auto justify-center mb-8 but_sections">
+          <div className="  px-6 py-3 shadow-sm">
             <div className="flex items-center space-x-2">
-              <div className="w-5 h-5 bg-green-500 rounded-full flex items-center justify-center">
-                <span className="text-white text-xs">+</span>
+              <div className="flex items-center justify-center">
+                <img src="/Group.png" alt="Tag Icon" className="w-6 h-6" />
               </div>
-              <span className="text-gray-700 font-medium">Pricing Section</span>
+              <span className="but_t">Pricing Section</span>
             </div>
           </div>
         </div>
+
 
         {/* Main Heading */}
         <div className="text-center mb-12">
@@ -61,7 +62,7 @@ export default function PricingSection() {
             <span className="text-[#01594d]">Experience the creative origin of</span>
             <br />
             <span className="text-[#01594d]">designs at the </span>
-            <span className="text-green-500">most affordable rates</span>
+            <span className="text-[#80D54B]">most affordable rates</span>
           </h2>
           <p className="text-lg sm:text-xl text-[#01594d] max-w-4xl mx-auto leading-relaxed px-4">
             Take advantage of the <span className="font-bold">Primordial Toolkit</span> and stand out immediately. Use
@@ -75,12 +76,11 @@ export default function PricingSection() {
           {pricingItems.map((item) => (
             <div
               key={item.id}
-              className="bg-[#01594d] rounded-2xl p-4 sm:p-6 text-center hover:scale-105 transition-all duration-300"
+              className="bg-[#01594d] border border-[#8ED462] rounded-2xl p-4 sm:p-6 text-center hover:scale-105 transition-all duration-300"
             >
-              <div className="mb-4">
-                <div className="w-6 h-6 sm:w-8 sm:h-8 bg-green-400 rounded-lg flex items-center justify-center mx-auto mb-3">
-                  <span className="text-white text-sm sm:text-lg">✦</span>
-                </div>
+              <div className="mb-4 flex justify-center items-center gap-3">
+                <img src="/Group.png" alt="Tag Icon" className="w-6 h-6" />
+
                 <h3 className="text-white text-lg sm:text-xl font-bold font-satoshi">{item.title}</h3>
               </div>
               <Link href={item.href}>
