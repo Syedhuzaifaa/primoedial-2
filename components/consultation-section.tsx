@@ -2,6 +2,7 @@
 
 import { useState } from "react"
 import { submitContactForm } from "../app/actions/contact"
+import { ArrowRight } from "lucide-react"
 
 export default function ConsultationSection() {
   const [formState, setFormState] = useState<{
@@ -32,17 +33,21 @@ export default function ConsultationSection() {
   }
 
   return (
-    <section className="py-12 sm:py-16 px-4 sm:px-8 relative z-30">
+    <section className="py-12 sm:py-16 px-4 sm:px-16 relative z-30">
       <div className="max-w-7xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-8 sm:gap-12 items-center">
           {/* Left Side - Content */}
           <div className="text-center lg:text-left">
             {/* Badge */}
-            <div className="inline-flex items-center space-x-2 bg-white border border-gray-200 rounded-full px-6 py-3 shadow-sm mb-8">
-              <div className="w-5 h-5 bg-green-500 rounded-full flex items-center justify-center">
-                <span className="text-white text-xs">✦</span>
+            <div className="flex justify-center mb-8 but_sections">
+              <div className="  px-6 py-3 shadow-sm">
+                <div className="flex items-center space-x-2">
+                  <div className="flex items-center justify-center">
+                    <img src="/Group.png" alt="Tag Icon" className="w-6 h-6" />
+                  </div>
+                  <span className="but_t">Consultation Call</span>
+                </div>
               </div>
-              <span className="text-gray-700 font-medium">Consultation Call</span>
             </div>
 
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 leading-tight font-satoshi">
@@ -51,24 +56,22 @@ export default function ConsultationSection() {
               <span className="text-[#80D54B]">working with us?</span>
             </h2>
 
-            <p className="text-lg sm:text-xl text-[#01594d] mb-6 font-semibold">Learn more about our services:</p>
+            <p className="consul-h  text-[#01594d]  ">Learn more about our services:</p>
 
-            <p className="text-base sm:text-lg text-[#01594d] mb-8 leading-relaxed">
+            <p className=" text-[#01594d] mb-8 consul-p leading-relaxed">
               Book a free 30 mins consultation call and get
               <br className="hidden sm:block" />
-              to fill our personalized branding
-              <br className="hidden sm:block" />
-              questionnaire!
+              to fill our personalized branding questionnaire!
             </p>
           </div>
 
           {/* Right Side - Contact Form */}
           <div className="relative flex justify-center">
-            <div className="bg-white rounded-3xl p-6 sm:p-8 shadow-xl w-full max-w-md">
+            <div className="bg-white border border-4 border-[#0000001A] rounded-2xl p-6 sm:p-6 shadow-xl w-full max-w-md">
               <form action={handleFormSubmit} className="space-y-6">
                 {/* Name Field */}
                 <div>
-                  <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
+                  <label htmlFor="name" className="text-[#01594D] block text-sm font-medium text-gray-700 mb-2">
                     Name
                   </label>
                   <input
@@ -77,28 +80,28 @@ export default function ConsultationSection() {
                     name="name"
                     placeholder="First Name"
                     required
-                    className="w-full px-4 py-3 bg-green-100 border border-green-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent text-sm sm:text-base"
+                    className="w-full px-3 py-2 bg-[#F3F3F3] border border-green-200 rounded-lg text-sm sm:text-base placeholder-[#01594D] focus:outline-none focus:ring-2 focus:ring-[#01594DA2] focus:border-transparent"
                   />
                 </div>
 
                 {/* Email Field */}
                 <div>
-                  <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
-                    Email <span className="text-red-500">*</span>
+                  <label htmlFor="email" className="text-[#01594D] block text-sm font-medium text-gray-700 mb-2">
+                    Service <span className="text-red-500">*</span>
                   </label>
                   <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    placeholder="Email"
-                    required
-                    className="w-full px-4 py-3 bg-green-100 border border-green-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent text-sm sm:text-base"
+                    type="text"
+                    id="Service"
+                    name="Service"
+                    placeholder="Service"
+                    // required
+                    className="w-full px-3 py-2 bg-[#F3F3F3] border border-green-200 rounded-lg placeholder-[#01594D] focus:outline-none focus:ring-2 focus:ring-[#01594DA2] focus:border-transparent text-sm sm:text-base"
                   />
                 </div>
 
                 {/* Description Field */}
                 <div>
-                  <label htmlFor="description" className="block text-sm font-medium text-gray-700 mb-2">
+                  <label htmlFor="description" className="text-[#01594D] block text-sm font-medium text-gray-700 mb-2">
                     Description
                   </label>
                   <textarea
@@ -107,7 +110,7 @@ export default function ConsultationSection() {
                     rows={4}
                     placeholder="Tell us about your project..."
                     required
-                    className="w-full px-4 py-3 bg-green-100 border border-green-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent resize-none text-sm sm:text-base"
+                    className="w-full px-4 py-3 bg-[#F3F3F3] border border-green-200 rounded-lg placeholder-[#01594D] focus:outline-none focus:ring-2 focus:ring-[#01594DA2] focus:border-transparent resize-none text-sm sm:text-base"
                   />
                 </div>
 
@@ -115,10 +118,12 @@ export default function ConsultationSection() {
                 <button
                   type="submit"
                   disabled={formState.loading}
-                  className="w-full bg-green-500 hover:bg-green-600 text-white font-semibold py-3 px-6 rounded-lg shadow-md transition-all duration-300 flex items-center justify-center space-x-2 disabled:opacity-50 disabled:cursor-not-allowed text-sm sm:text-base"
+                  className="text-[#01594D] w-auto px-[14px] pr-[14px] pl-[7px] py-[6px] bg-[#8ED462] hover:bg-[#76C14D] text-white font-semibold rounded-full shadow-md transition-all duration-300 flex items-center justify-center space-x-2 disabled:opacity-50 disabled:cursor-not-allowed text-sm sm:text-base"
                 >
-                  <div className="w-5 h-5 bg-white rounded-full flex items-center justify-center">
-                    <span className="text-[#80D54B] text-xs font-bold">✓</span>
+                  <div
+                    className="flex items-center justify-center w-8 h-8 bg-[#01594D] hover:bg-green-600 rounded-full transition-colors shadow-lg"
+                  >
+                    <ArrowRight className="w-6 h-6 text-[#8ED462]" />
                   </div>
                   <span>{formState.loading ? "Sending..." : "Get a solution"}</span>
                 </button>

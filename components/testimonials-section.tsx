@@ -6,16 +6,16 @@ import { Card, CardContent } from "@/components/ui/card"
 const testimonials = {
   column1: [
     {
-      text: "I highly recommend Obeidullah as your graphic designer. He has been an invaluable help with my designs, always delivering high-quality work on time!",
-      name: "Nikolett Jaksa",
-      title: "Personal Branding Expert",
-      image: "/placeholder.svg?height=50&width=50",
+      text: "Obeidullah and me met recently. He caught my attention with a posting where he wrote about the importance of design to be remembered as a brand.<br/><br/> I was thinking about to change my CI anyways so the timing was great for it. <br/><br/> He is a chill dude. We had a kick off meeting and I told him about my plans. He worked out some examples. With a lil bit back and forth communication I am now happy about my branding. <br/><br/>Thanks for the work buddy. Wish you only the best",
+      name: "Long Nguyen",
+      title: "Consulting Expert",
+      image: "/images/Ellipse 899.png?height=50&width=50",
     },
     {
-      text: "His work ethic is what impresses me the most. I've worked with many designers in the past, and let me tell you - Obedullah's a champ!",
-      name: "Louis Bamberer",
-      title: "Content Creator",
-      image: "/placeholder.svg?height=50&width=50",
+      text: "I highly recommend Obeidullah as your graphic designer. <br/><br/> He has been an invaluable help with my designs, always delivering high-quality work on time! His creativity, patience (!!) and attention to detail have made a huge difference, and I truly recommend working with him!",
+      name: "Nikolett Jaksa",
+      title: "Personal Branding Expert",
+      image: "/images/Ellipse745.png?height=50&width=50",
     },
     {
       text: "I was referred to Obeidullah through a mutual connection that recommended him highly. I was in the process of a complete rebrand to launch my new business.",
@@ -23,31 +23,31 @@ const testimonials = {
       title: "Business Owner",
       image: "/placeholder.svg?height=50&width=50",
     },
-    {
-      text: "Working with Obeidullah has been fantastic. His attention to detail and creative vision exceeded my expectations.",
-      name: "Michael Chen",
-      title: "Marketing Director",
-      image: "/placeholder.svg?height=50&width=50",
-    },
-    {
-      text: "Professional, creative, and always on time. Obeidullah transformed our brand identity completely.",
-      name: "Emma Rodriguez",
-      title: "Startup Founder",
-      image: "/placeholder.svg?height=50&width=50",
-    },
+    // {
+    //   text: "Working with Obeidullah has been fantastic. His attention to detail and creative vision exceeded my expectations.",
+    //   name: "Michael Chen",
+    //   title: "Marketing Director",
+    //   image: "/placeholder.svg?height=50&width=50",
+    // },
+    // {
+    //   text: "Professional, creative, and always on time. Obeidullah transformed our brand identity completely.",
+    //   name: "Emma Rodriguez",
+    //   title: "Startup Founder",
+    //   image: "/placeholder.svg?height=50&width=50",
+    // },
   ],
   column2: [
     {
-      text: "Absolutely exceptional work! Obeidullah went above and beyond that I'm working very closely with him, speaking with him most days.",
+      text: "Obeidullah has been an absolute pleasure to work with. <br/><br/> He's initially built trust with me over LinkedIn just through his content.<br/><br/> I saw how amazing he was at Banners so I used him for a few client redesigns and ultimately this has expanded way beyond that.<br/><br/> I'm working very closely with him, speaking with him most days. He's a great person, like I really enjoy speaking with him. <br/><br/> He's super hardworking, super easy to get along with, and super, super helpful. <br/><br/> I highly recommend working with Obeidullah",
       name: "Charlie Hills",
-      title: "LinkedIn Creator",
-      image: "/placeholder.svg?height=50&width=50",
+      title: "AI Content Creator",
+      image: "/images/Ellipse 898.png?height=50&width=50",
     },
     {
-      text: "I cannot recommend Obeidullah enough. He is a stellar design (10/10 skills) and more importantly his work ethic is what impresses me the most.",
-      name: "David Park",
-      title: "Tech Entrepreneur",
-      image: "/placeholder.svg?height=50&width=50",
+      text: "“I cannot recommend Obeidullah enough. <br/><br/> He is a stellar design (10/10 skills) and more importantly his work ethic is what impresses me the most.<br/><br/>I've worked with many designers in the past, and let me tell you - Obediullah's a champ!”",
+      name: "Fatima Khan",
+      title: "Professional Speaker",
+      image: "/images/Ellipse746.png?height=50&width=50",
     },
     {
       text: "I worked with Obeidullah on a LinkedIn banner redesign. Although I saw his previous work, he surprised me with the quality he delivered.",
@@ -57,8 +57,8 @@ const testimonials = {
     },
     {
       text: "His creativity and problem-solving skills are outstanding. Every project delivered with excellence.",
-      name: "Robert Taylor",
-      title: "Creative Director",
+      name: "Nikolett Jaksa",
+      title: "Personal Branding Expert",
       image: "/placeholder.svg?height=50&width=50",
     },
     {
@@ -70,16 +70,16 @@ const testimonials = {
   ],
   column3: [
     {
-      text: "I have him in my circle. I reached out to Obeidullah to revamp my LinkedIn profile designs. His work on LinkedIn caught my attention.",
+      text: "Obeidullah was one of the first people I connected with on LinkedIn and the first creator I did a collab with. <br/><br/>   Over the past six months, I've loved seeing how much he’s grown as a designer and as a person. <br/><br/>   We've worked together on couple of projects, and I can say he’s talented, genuine, and puts his heart into everything he does. <br/><br/>  Obeidullah isn’t just a great designer, he’s a great person and I’m grateful to have him in my circle.",
       name: "Daniel Korenblum",
       title: "Personal Branding Expert",
-      image: "/placeholder.svg?height=50&width=50",
+      image: "/images/Ellipse7.png?height=50&width=50",
     },
     {
-      text: "As a busy founder, I don't always have the time to focus on personal projects, but Obeidullah made the entire process effortless.",
+      text: "Obeidullah designed my banner.   He is so cool to work with and he literally revised it until I was satisfied with everything.  <br/><br/> He prioritizes customer satisfaction at all costs. <br/><br/>  He is super organized too!  Take him for your designing and graphics stuff and you won't be disappointed.   101% recommended",
       name: "Amanda Foster",
       title: "CEO & Founder",
-      image: "/placeholder.svg?height=50&width=50",
+      image: "/images/Ellipse4.png?height=50&width=50",
     },
     {
       text: "The quality of work and attention to detail is remarkable. Obeidullah truly understands brand aesthetics.",
@@ -102,35 +102,35 @@ const testimonials = {
   ],
   column4: [
     {
-      text: "My LinkedIn profile: Quick to reply, polite and proactive with suggestions on how we could make the designs better. Would highly recommend!",
-      name: "Fatima Khan",
-      title: "Content Strategist",
-      image: "/placeholder.svg?height=50&width=50",
+      text: "I reached out to Obeidullah to revamp my LinkedIn profile designs.<br /> work on LinkedIn caught my attention, and I'm so glad I made the decision to get help from him.\n\nAs a busy founder, I don’t always have the time to focus on personal projects, but Obeidullah made the entire process effortless.\n\nAll I had to do was fill out a short questionnaire, and from there, he handled everything with impressive precision.\n\nHe kept me in the loop throughout the process, sending regular updates and Loom videos to explain his approach – which were incredibly helpful!\n\nIf you’re looking for someone to elevate your LinkedIn profile or assist with design projects, I highly recommend him.\n\nTalents like his are rare, so don’t miss out!",
+      name: "Ayesha Ameer",
+      title: "Personal Branding Expert",
+      image: "/images/Ellipse74.png?height=50&width=50",
     },
-    {
-      text: "Outstanding work quality and professional service. Obeidullah's designs helped elevate our brand presence significantly.",
-      name: "Thomas Brown",
-      title: "Sales Director",
-      image: "/placeholder.svg?height=50&width=50",
-    },
-    {
-      text: "Reliable, creative, and always delivers on time. Working with Obeidullah has been a game-changer for our brand.",
-      name: "Sophie Davis",
-      title: "Brand Strategist",
-      image: "/placeholder.svg?height=50&width=50",
-    },
-    {
-      text: "Incredible attention to detail and creative vision. Every project exceeded our expectations.",
-      name: "James Wilson",
-      title: "Creative Lead",
-      image: "/placeholder.svg?height=50&width=50",
-    },
-    {
-      text: "Professional, talented, and easy to work with. Obeidullah transformed our visual identity completely.",
-      name: "Maria Garcia",
-      title: "Design Director",
-      image: "/placeholder.svg?height=50&width=50",
-    },
+    // {
+    //   text: "Outstanding work quality and professional service. Obeidullah's designs helped elevate our brand presence significantly.",
+    //   name: "Thomas Brown",
+    //   title: "Sales Director",
+    //   image: "/placeholder.svg?height=50&width=50",
+    // },
+    // {
+    //   text: "Reliable, creative, and always delivers on time. Working with Obeidullah has been a game-changer for our brand.",
+    //   name: "Sophie Davis",
+    //   title: "Brand Strategist",
+    //   image: "/placeholder.svg?height=50&width=50",
+    // },
+    // {
+    //   text: "Incredible attention to detail and creative vision. Every project exceeded our expectations.",
+    //   name: "James Wilson",
+    //   title: "Creative Lead",
+    //   image: "/placeholder.svg?height=50&width=50",
+    // },
+    // {
+    //   text: "Professional, talented, and easy to work with. Obeidullah transformed our visual identity completely.",
+    //   name: "Maria Garcia",
+    //   title: "Design Director",
+    //   image: "/placeholder.svg?height=50&width=50",
+    // },
   ],
 }
 
@@ -138,20 +138,20 @@ export default function TestimonialsSection() {
   return (
     <section className="py-12 sm:py-16 px-4 sm:px-8 relative z-30 overflow-hidden">
       {/* Blur effects */}
-      <div className="absolute top-0 left-0 right-0 h-32 sm:h-40 bg-gradient-to-b from-green-100 via-green-100/90 via-green-100/70 via-green-100/40 via-green-100/20 to-transparent z-20 pointer-events-none"></div>
-      <div className="absolute bottom-0 left-0 right-0 h-32 sm:h-40 bg-gradient-to-t from-green-100 via-green-100/90 via-green-100/70 via-green-100/40 via-green-100/20 to-transparent z-20 pointer-events-none"></div>
-      <div className="absolute top-0 bottom-0 left-0 w-8 sm:w-12 bg-gradient-to-r from-green-100 via-green-100/60 to-transparent z-15 pointer-events-none"></div>
-      <div className="absolute top-0 bottom-0 right-0 w-8 sm:w-12 bg-gradient-to-l from-green-100 via-green-100/60 to-transparent z-15 pointer-events-none"></div>
+      <div className="absolute top-273 left-0 right-0 h-32 sm:h-40 bg-gradient-to-b from-[#f2fae5] via-[#f2fae5]/90 via-[#f2fae5]/70 via-[#f2fae5]/40 via-[#f2fae5]/20 to-transparent z-20 pointer-events-none"></div>
+      <div className="absolute bottom-0 left-0 right-0 h-32 sm:h-40 bg-gradient-to-t from-[#f2fae5] via-[#f2fae5]/90 via-[#f2fae5]/70 via-[#f2fae5]/40 via-[#f2fae5]/20 to-transparent z-20 pointer-events-none"></div>
+      {/* <div className="absolute top-0 bottom-0 left-0 w-8 sm:w-12 bg-gradient-to-r from-green-100 via-green-100/60 to-transparent z-15 pointer-events-none"></div> */}
+      {/* <div className="absolute top-0 bottom-0 right-0 w-8 sm:w-12 bg-gradient-to-l from-green-100 via-green-100/60 to-transparent z-15 pointer-events-none"></div> */}
 
       <div className="max-w-6xl mx-auto">
         {/* Badge */}
-        <div className="flex justify-center mb-8 relative z-30">
-          <div className="bg-white border border-gray-200 rounded-full px-6 py-3 shadow-sm">
+        <div className="flex mx-auto justify-center mb-8 but_sections">
+          <div className="  px-6 py-3 shadow-sm">
             <div className="flex items-center space-x-2">
-              <div className="w-5 h-5 bg-green-500 rounded-full flex items-center justify-center">
-                <span className="text-white text-xs">✦</span>
+              <div className="flex items-center justify-center">
+                <img src="/Group.png" alt="Tag Icon" className="w-6 h-6" />
               </div>
-              <span className="text-gray-700 font-medium">Testimonials</span>
+              <span className="but_t">Testimonials</span>
             </div>
           </div>
         </div>
@@ -210,7 +210,12 @@ function TestimonialColumn({
           className="bg-white shadow-lg rounded-2xl hover:shadow-xl transition-all duration-300"
         >
           <CardContent className="p-4 sm:p-6">
-            <p className="text-[#01594d] text-xs sm:text-sm leading-relaxed mb-4">"{testimonial.text}"</p>
+            <div
+              className="text-[#01594d] text-xs sm:text-sm leading-relaxed mb-4"
+              dangerouslySetInnerHTML={{
+                __html: `"${testimonial.text.replace(/\n/g, '<br />')}"`,
+              }}
+            />
             <div className="flex items-center space-x-3">
               <Image
                 src={testimonial.image || "/placeholder.svg"}
@@ -220,8 +225,8 @@ function TestimonialColumn({
                 className="sm:w-10 sm:h-10 rounded-full"
               />
               <div>
-                <h4 className="font-bold text-xs sm:text-sm text-gray-800 font-satoshi">{testimonial.name}</h4>
-                <p className="text-xs text-gray-600">{testimonial.title}</p>
+                <h4 className="font-bold text-xs sm:text-sm text-gray-800 text-[#013A33]">{testimonial.name}</h4>
+                <p className="text-xs text-gray-600 text-[#013A33]">{testimonial.title}</p>
               </div>
             </div>
           </CardContent>

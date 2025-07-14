@@ -84,7 +84,7 @@ export default function PricingSection() {
                 <h3 className="text-white text-lg sm:text-xl font-bold font-satoshi">{item.title}</h3>
               </div>
               <Link href={item.href}>
-                <Button className="bg-green-400 hover:bg-green-500 text-black font-bold py-2 sm:py-3 px-4 sm:px-6 rounded-lg w-full text-sm sm:text-base">
+                <Button className="book_button bg-green-400 hover:bg-green-500 text-black font-bold py-2 sm:py-3 px-4 sm:px-6 rounded-lg w-full text-sm sm:text-base">
                   View Full Pricing
                 </Button>
               </Link>

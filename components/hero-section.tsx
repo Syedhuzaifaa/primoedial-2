@@ -30,10 +30,10 @@ export default function HeroSection({ onViewPricing }: HeroSectionProps) {
   return (
     <>
       {/* Main Hero Content */}
-      <main className="mian-con flex items-center justify-center min-h-screen px-4 sm:px-8 relative z-30">
+      <main className="mian-con flex items-center justify-center min-h-[76vh] sm:min-h-[87vh]  px-4 sm:px-8 relative z-30">
         <div className="max-w-4xl mx-auto text-center">
           {/* Profile Images Row */}
-          <div className="flex flex-col md:flex-row justify-between items-center md:items-start gap-6 px-[13rem]">
+          <div className="flex flex-col md:flex-row justify-between items-center md:items-start gap-2 lg:gap-6 lg:px-[13rem]   ">
             {/* Profile Avatars */}
             <div className="flex justify-center items-center mb-4 md:mb-0 overflow-visible">
               {profileGroups.map((imageSet, index) => (
@@ -76,7 +76,7 @@ export default function HeroSection({ onViewPricing }: HeroSectionProps) {
           </div>
 
           {/* Main Heading */}
-          <h1 className="heading_cus text-3xl sm:text-5xl lg:text-7xl font-bold mb-6 leading-tight font-satoshi">
+<h1 className="heading_cus text-3xl sm:text-5xl lg:text-7xl font-bold mb-6 leading-tight mt-4 font-satoshi leading-custom-sm">
             <span className="text-[#01594d]">Crafting Bold, </span>
             <span className="text-[#80D54B]">Impactful</span>
             <br />

@@ -183,6 +183,7 @@ main {
 .book_button {
   background-color: #8ED462;
   border: 1px solid white;
+  color: #01594D;
   font-size: 18px;
   font-weight: 500;
 }
@@ -206,7 +207,10 @@ main {
 .mian-con {
   background-image: url('/images/Vector.png');
 }
-
+.footer_cus{
+  background-image: url('/images/Layer_1-1.png');
+  background-position: bottom;
+}
 .button_cus {
   padding: 26px 16px !important;
 }
@@ -323,7 +327,7 @@ font-weight: 500;
 font-style: Medium;
 font-size: 28.15px;
 /* leading-trim: NONE; */
-line-height: 39.77px;
+/* line-height: 39.77px !important; */
 letter-spacing: -1.13px;
 vertical-align: middle;
 text-transform: capitalize;
@@ -351,4 +355,65 @@ line-height: 34.69px;
 letter-spacing: -0.28px;
 vertical-align: middle;
 
+}
+.top-273{
+    top: 273px;
+}
+.consul-h{
+  font-family: 'Fustat' , sans-serif;
+font-weight: 600;
+font-style: Bold;
+font-size: 24.28px;
+/* leading-trim: NONE; */
+line-height: 36.22px;
+letter-spacing: -0.29px;
+vertical-align: middle;
+
+}
+.consul-p{
+  font-family: 'Fustat' , sans-serif;
+font-weight: 400;
+font-style: medium;
+font-size: 24.28px;
+/* leading-trim: NONE; */
+line-height: 26.22px !important;
+letter-spacing: -0.29px;
+vertical-align: middle;
+
+}
+.foot-p{
+  font-family: 'Manrope' , sans-serif;
+font-weight: 500;
+font-style: Medium;
+font-size: 22.42px;
+/* leading-trim: NONE; */
+line-height: 135%;
+letter-spacing: 0%;
+text-align: center;
+
+}
+.footer-menu{
+  font-family: 'Rethink Sans', sans-serif !important;
+font-weight: 400 !important;
+font-style: normal !important;
+font-size: 16px !important;
+/* leading-trim: NONE !important; */
+line-height: 135% !important;
+letter-spacing: 0% !important;
+
+}
+.foot-mail{
+  font-family: 'Manrope', sans-serif !important;
+font-weight: 500 !important;
+font-style: Medium !important;
+font-size: 16px !important;
+/* leading-trim: NONE !important; */
+line-height: 150% !important;
+letter-spacing: 0% !important;
+
+}
+@media (max-width: 639px) {
+  .leading-custom-sm {
+    line-height: 39.77px !important;
+  }
 }
