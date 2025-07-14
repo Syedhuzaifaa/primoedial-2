@@ -39,7 +39,7 @@ export default function ConsultationSection() {
           {/* Left Side - Content */}
           <div className="text-center lg:text-left">
             {/* Badge */}
-            <div className="flex justify-center mb-8 but_sections">
+            <div className="flex justify-center mx-auto sm:mx-0 mb-8 but_sections">
               <div className="  px-6 py-3 shadow-sm">
                 <div className="flex items-center space-x-2">
                   <div className="flex items-center justify-center">
@@ -56,9 +56,9 @@ export default function ConsultationSection() {
               <span className="text-[#80D54B]">working with us?</span>
             </h2>
 
-            <p className="consul-h  text-[#01594d]  ">Learn more about our services:</p>
+            <p className="consul-h consul-p-m  text-[#01594d]  ">Learn more about our services:</p>
 
-            <p className=" text-[#01594d] mb-8 consul-p leading-relaxed">
+            <p className="consul-p-m text-[#01594d] mb-8 consul-p leading-relaxed">
               Book a free 30 mins consultation call and get
               <br className="hidden sm:block" />
               to fill our personalized branding questionnaire!

@@ -76,7 +76,7 @@ export default function HeroSection({ onViewPricing }: HeroSectionProps) {
           </div>
 
           {/* Main Heading */}
-<h1 className="heading_cus text-3xl sm:text-5xl lg:text-7xl font-bold mb-6 leading-tight mt-4 font-satoshi leading-custom-sm">
+          <h1 className="heading_cus text-3xl sm:text-5xl lg:text-7xl font-bold mb-6 leading-tight mt-4 font-satoshi leading-custom-sm">
             <span className="text-[#01594d]">Crafting Bold, </span>
             <span className="text-[#80D54B]">Impactful</span>
             <br />
@@ -96,7 +96,7 @@ export default function HeroSection({ onViewPricing }: HeroSectionProps) {
             onClick={onViewPricing}
             className="bg-[#01594d] button_cus hover:bg-green-800 text-white px-6 sm:px-8 py-3 sm:py-4 text-base sm:text-lg rounded-xl shadow-lg transform transition-all duration-300 hover:scale-105"
           >
-            <div className="flex items-center space-x-3">
+            <div className="flex items-center space-x-3 gap-2">
               <div className="w-5 h-5 sm:w-6 sm:h-6 bg-green-400 rounded-md flex items-center justify-center">
                 <span className="text-white text-xs sm:text-sm font-bold">
                   <div className="w-10 h-10 bg-[#A8EB87] rounded-lg flex items-center justify-center">
@@ -114,7 +114,7 @@ export default function HeroSection({ onViewPricing }: HeroSectionProps) {
       <TestimonialCard
         name="Charlie Hills"
         text="I'm Working Closely With Him, Speaking With Him Most Days. He's A Great Person, He's Super Hardworking, Super Easy To Get Along With"
-        className={`hidden lg:block absolute top-28 cus-card right-8 w-80 bg-white shadow-xl rounded-xl transform transition-all duration-1000 ${testimonialsVisible ? "translate-x-0 opacity-100" : "translate-x-full opacity-0"
+        className={`hidden lg:block absolute top-[5rem]  cus-card right-10 w-80 bg-white shadow-xl rounded-xl transform transition-all duration-1000 ${testimonialsVisible ? "translate-x-0 opacity-100" : "translate-x-full opacity-0"
           } delay-20 z-40`}
         image="/images/Ellipse72.png"
 
@@ -132,7 +132,7 @@ export default function HeroSection({ onViewPricing }: HeroSectionProps) {
       <TestimonialCard
         name="Ayesha Ameer"
         text="If You're Looking For Someone To Elevate Your LinkedIn Profile Or Assist With Design Projects, I Highly Recommend Him"
-        className={`hidden lg:block absolute top-22 cus-ayesha cus-card  -translate-y-1/2 w-80 bg-white shadow-xl rounded-xl transform transition-all duration-1000 ${testimonialsVisible ? "translate-x-0 opacity-100" : "translate-x-full opacity-0"
+        className={`hidden lg:block absolute top-[38rem] cus-ayesha cus-card  -translate-y-1/2 w-80 bg-white shadow-xl rounded-xl transform transition-all duration-1000 ${testimonialsVisible ? "translate-x-0 opacity-100" : "translate-x-full opacity-0"
           } delay-20 z-40`}
         image="/images/Ellipse4.png"
 

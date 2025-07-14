@@ -416,4 +416,13 @@ letter-spacing: 0% !important;
   .leading-custom-sm {
     line-height: 39.77px !important;
   }
+  .avail-p{
+    font-size: 17px ;
+  }
+  .fill-p{
+    font-size: 17px ;
+  }
+  .consul-p-m{
+    font-size: 17px ;
+  }
 }

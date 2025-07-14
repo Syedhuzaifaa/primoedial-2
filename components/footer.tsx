@@ -19,7 +19,7 @@ export default function Footer() {
           <div className="flex items-center justify-center space-x-3 mb-4">
             <img src="/images/Group 1000001746.png" alt="" />
           </div>
-          <p className="text-base sm:text-lg max-w-2xl mx-auto leading-relaxed px-4 foot-p">
+          <p className="consul-p-m text-base sm:text-lg max-w-2xl mx-auto leading-relaxed px-4 foot-p">
             Primordial is a design agency that focuses on freeing up valuable <br /> hours for clients to focus on high-impact
             business development
           </p>

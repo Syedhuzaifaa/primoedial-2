@@ -52,7 +52,7 @@ export default function PortfolioSection() {
 
         {/* Main Heading */}
         <div className="text-center mb-12">
-          <h2 className="avail-Head text-3xl sm:text-4xl lg:text-6xl font-bold mb-6 leading-tight font-satoshi">
+<h2 className="heading_cus text-3xl sm:text-5xl lg:text-7xl font-bold mb-6 leading-tight mt-4 font-satoshi leading-custom-sm">
             <span className="text-[#01594d]">The </span>
             <span className="text-[#80D54B]">work</span>
             <span className="text-[#01594d]"> we did for our clients</span>
