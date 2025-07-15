@@ -69,16 +69,17 @@ export default function BrandingQuestionnaireSection() {
             <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start space-y-4 sm:space-y-0 sm:space-x-4 lg:space-x-8 mb-8">
               <img src="/images/fill-3.png" alt="" />
             </div>
-
-            <Button className="bg-[#01594d] hover:bg-green-800 text-white px-6 sm:px-8 py-3 sm:py-4 text-base sm:text-lg button_cuss rounded-xl shadow-lg">
-              Get in Touch with us
-            </Button>
+            <a target="blank" href="https://api.whatsapp.com/send/?phone=447894683735&text&type=phone_number&app_absent=0">
+              <Button className="bg-[#01594d] hover:bg-green-800 text-white px-6 sm:px-8 py-3 sm:py-4 text-base sm:text-lg button_cuss rounded-xl shadow-lg">
+                Get in Touch with us
+              </Button>
+            </a>
           </div>
 
           {/* Right Side - Phone Mockup */}
           <div className="relative flex justify-center">
             <div className="relative">
-             <img src="/images/Group 1000001772.png" alt="" />
+              <img src="/images/Group 1000001772.png" alt="" />
             </div>
           </div>
         </div>

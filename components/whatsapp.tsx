@@ -9,9 +9,11 @@ export default function WhatsApp() {
   return (
      <div className="fixed bottom-6 right-6 sm:bottom-8 sm:right-8 z-50">
         <div className="relative group">
+          <a target="blank" href="https://api.whatsapp.com/send/?phone=447894683735&text&type=phone_number&app_absent=0">
           <Button className="bg-green-500 hover:bg-green-600 text-white rounded-full p-3 sm:p-4 shadow-xl">
-            <MessageCircle className="w-5 h-5 sm:w-6 sm:h-6" />
+            {/* <Whats className="w-5 h-5 sm:w-6 sm:h-6" /> */}
           </Button>
+          </a>
           <div className="absolute bottom-full right-0 mb-3 bg-white rounded-lg shadow-xl p-4 max-w-xs opacity-0 group-hover:opacity-100 transition-opacity duration-300 hidden sm:block">
             <p className="text-sm">
               <span className="text-gray-600">Need Help? </span>

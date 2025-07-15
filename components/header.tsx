@@ -55,9 +55,11 @@ export default function Header() {
         </div>
 
         {/* Desktop CTA Button */}
+        <a href="https://topmate.io/obeidullahsiddiqui/">
         <Button className="book_button hidden lg:block  hover:bg-green-500 text-black font-semibold px-6 py-2 rounded-lg shadow-md">
           Book A Call
         </Button>
+        </a>
 
         {/* Mobile Menu Button */}
         <button
