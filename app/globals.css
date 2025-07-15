@@ -330,7 +330,7 @@ font-size: 28.15px;
 /* line-height: 39.77px !important; */
 letter-spacing: -1.13px;
 vertical-align: middle;
-text-transform: capitalize;
+/* text-transform: capitalize; */
 
 }
 .pp-p{
@@ -425,4 +425,25 @@ letter-spacing: 0% !important;
   .consul-p-m{
     font-size: 17px ;
   }
+}
+.best_p{
+  font-family: 'Manrope' , sans-serif;
+font-weight: 400;
+/* font-style: Regular; */
+font-size: 27px;
+/* leading-trim: NONE; */
+line-height: 32.48px;
+letter-spacing: -0.26px;
+vertical-align: middle;
+
+}
+.card_button{
+  font-family: 'Avenir' , sans-serif;
+font-weight: 600;
+font-size: 13.39px;
+/* leading-trim: NONE; */
+line-height: 100%;
+letter-spacing: 0px;
+text-align: center;
+
 }

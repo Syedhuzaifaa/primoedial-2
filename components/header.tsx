@@ -13,15 +13,14 @@ export default function Header() {
       <header className="bg-[#01594d] lg:mx-[13rem]  text-white px-4 sm:px-8 py-2 rounded-2xl mx-4 sm:mx-8  relative z-50 shadow-lg">
       <nav className="max-w-7xl mx-auto flex items-center justify-between">
         <div className="flex items-center space-x-2">
-          <div className="text-2xl font-bold italic text-green-400 font-satoshi">N</div>
-          <span className="text-xl font-semibold font-satoshi">Primordial</span>
+        <img src="/images/Group 48097818.png" alt="" width={140} height={25} />
         </div>
 
         {/* Desktop Navigation */}
         <div className="hidden lg:flex items-center space-x-8">
-          <a href="#" className="hover:text-green-300 transition-colors font-medium">
+          <Link href="#" className="hover:text-green-300 transition-colors font-medium">
             Home
-          </a>
+          </Link>
 
           <div className="relative">
             <button
@@ -50,9 +49,9 @@ export default function Header() {
             )}
           </div>
 
-          <a href="#" className="hover:text-green-300 transition-colors font-medium">
+          <Link href="#" className="hover:text-green-300 transition-colors font-medium">
             Portfolio
-          </a>
+          </Link>
         </div>
 
         {/* Desktop CTA Button */}
@@ -73,18 +72,18 @@ export default function Header() {
       {isMobileMenuOpen && (
         <div className="lg:hidden mt-4 pb-4 border-t border-green-600">
           <div className="flex flex-col space-y-4 mt-4">
-            <a href="#" className="hover:text-green-300 transition-colors font-medium">
+            <Link href="#" className="hover:text-green-300 transition-colors font-medium">
               Home
-            </a>
+            </Link>
             <Link href="/website-design" className="hover:text-green-300 transition-colors font-medium">
               Website Design
             </Link>
             <Link href="/logo-design" className="hover:text-green-300 transition-colors font-medium">
               Logo Design
             </Link>
-            <a href="#" className="hover:text-green-300 transition-colors font-medium">
+            <Link href="#" className="hover:text-green-300 transition-colors font-medium">
               Portfolio
-            </a>
+            </Link>
             <Button className="book_button hover:bg-green-500 text-black font-semibold px-6 py-2 rounded-lg shadow-md w-full">
               Book A Call
             </Button>

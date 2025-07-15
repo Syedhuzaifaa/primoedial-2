@@ -6,7 +6,7 @@ import { Card, CardContent } from "@/components/ui/card"
 const testimonials = {
   column1: [
     {
-      text: "Obeidullah and me met recently. He caught my attention with a posting where he wrote about the importance of design to be remembered as a brand.<br/><br/> I was thinking about to change my CI anyways so the timing was great for it. <br/><br/> He is a chill dude. We had a kick off meeting and I told him about my plans. He worked out some examples. With a lil bit back and forth communication I am now happy about my branding. <br/><br/>Thanks for the work buddy. Wish you only the best",
+      text: "Obeidullah and me met recently. He caught my attention with a posting where he wrote about the importance of design to be remembered as a brand.<br/><br/>I was thinking about to change my CI anyways so the timing was great for it. <br/><br/>He is a chill dude. We had a kick off meeting and I told him about my plans. He worked out some examples. With a lil bit back and forth communication I am now happy about my branding. <br/><br/>Thanks for the work buddy. Wish you only the best",
       name: "Long Nguyen",
       title: "Consulting Expert",
       image: "/images/Ellipse 899.png?height=50&width=50",
@@ -70,13 +70,13 @@ const testimonials = {
   ],
   column3: [
     {
-      text: "Obeidullah was one of the first people I connected with on LinkedIn and the first creator I did a collab with. <br/><br/>   Over the past six months, I've loved seeing how much he’s grown as a designer and as a person. <br/><br/>   We've worked together on couple of projects, and I can say he’s talented, genuine, and puts his heart into everything he does. <br/><br/>  Obeidullah isn’t just a great designer, he’s a great person and I’m grateful to have him in my circle.",
+      text: "Obeidullah was one of the first people I connected with on LinkedIn and the first creator I did a collab with. <br/><br/> Over the past six months, I've loved seeing how much he’s grown as a designer and as a person. <br/><br/> We've worked together on couple of projects, and I can say he’s talented, genuine, and puts his heart into everything he does. <br/><br/>Obeidullah isn’t just a great designer, he’s a great person and I’m grateful to have him in my circle.",
       name: "Daniel Korenblum",
       title: "Personal Branding Expert",
       image: "/images/Ellipse7.png?height=50&width=50",
     },
     {
-      text: "Obeidullah designed my banner.   He is so cool to work with and he literally revised it until I was satisfied with everything.  <br/><br/> He prioritizes customer satisfaction at all costs. <br/><br/>  He is super organized too!  Take him for your designing and graphics stuff and you won't be disappointed.   101% recommended",
+      text: "Obeidullah designed my banner. He is so cool to work with and he literally revised it until I was satisfied with everything.  <br/><br/>He prioritizes customer satisfaction at all costs. <br/><br/>He is super organized too!Take him for your designing and graphics stuff and you won't be disappointed. 101% recommended",
       name: "Amanda Foster",
       title: "CEO & Founder",
       image: "/images/Ellipse4.png?height=50&width=50",
