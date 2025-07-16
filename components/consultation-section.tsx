@@ -3,6 +3,7 @@
 import { useState } from "react"
 import { submitContactForm } from "../app/actions/contact"
 import { ArrowRight } from "lucide-react"
+import toast from "react-hot-toast"
 
 export default function ConsultationSection() {
   const [formState, setFormState] = useState<{
@@ -15,22 +16,31 @@ export default function ConsultationSection() {
     success: false,
   })
 
-  const handleFormSubmit = async (formData: FormData) => {
-    setFormState({ loading: true, message: "", success: false })
 
-    const result = await submitContactForm(formData)
+const handleFormSubmit = async (formData: FormData) => {
+  setFormState({ loading: true, message: "", success: false })
 
-    setFormState({
-      loading: false,
-      message: result.message,
-      success: result.success,
-    })
+  const result = await submitContactForm(formData)
 
-    // Clear message after 5 seconds
-    setTimeout(() => {
-      setFormState((prev) => ({ ...prev, message: "" }))
-    }, 5000)
+  setFormState({
+    loading: false,
+    message: result.message,
+    success: result.success,
+  })
+
+  // Show toast
+  if (result.success) {
+    toast.success("Email sent successfully!")
+  } else {
+    toast.error(result.message || "Something went wrong!")
   }
+
+  // Clear message after 5 seconds (optional)
+  setTimeout(() => {
+    setFormState((prev) => ({ ...prev, message: "" }))
+  }, 5000)
+}
+
 
   return (
     <section className="py-12 sm:py-16 px-4 sm:px-16 relative z-30">
