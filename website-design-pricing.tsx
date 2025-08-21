@@ -62,27 +62,7 @@ export default function WebsiteDesignPricing() {
 
   return (
     <div className="min-h-screen relative">
-      {/* Back Button - Outside Header */}
-      {/* <div className="fixed top-8 left-8 z-50">
-        <button
-          onClick={() => {
-            router.push("/")
-            setTimeout(() => {
-              const pricingSection = document.getElementById("pricing")
-              if (pricingSection) {
-                pricingSection.scrollIntoView({ behavior: "smooth" })
-              }
-            }, 100)
-          }}
-          className="flex items-center justify-center w-12 h-12 bg-green-700 hover:bg-green-600 rounded-full transition-colors shadow-lg"
-        >
-          <ArrowLeft className="w-6 h-6 text-white" />
-        </button>
-      </div> */}
-
       <HeaderMobile />
-
-
       {/* Main Content */}
       <main className="py-12 sm:py-16 px-4 sm:px-8 relative z-30">
         <div className="max-w-6xl mx-auto">

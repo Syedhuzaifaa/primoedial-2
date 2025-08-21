@@ -58,16 +58,16 @@ export default function PricingSection() {
 
         {/* Main Heading */}
         <div className="text-center mb-12">
-          <h2 className="text-3xl sm:text-4xl lg:text-6xl font-bold mb-6 leading-tight font-satoshi">
+          <h2 className="text-3xl sm:text-4xl lg:text-6xl font-bold mb-6 leading-tight font-satoshi capitalize   text-Uppercase">
             <span className="text-[#01594d]">Experience the creative origin of</span>
             <br />
             <span className="text-[#01594d]">designs at the </span>
             <span className="text-[#80D54B]">most affordable rates</span>
           </h2>
-          <p className="text-lg sm:text-xl text-[#01594d] max-w-4xl mx-auto leading-relaxed px-4">
-            Take advantage of the <span className="font-bold">Primordial Toolkit</span> and stand out immediately. Use
+          <p className="text-xl sm:text-2xl text-[#01594d] max-w-4xl mx-auto leading-relaxed px-4">
+            Take advantage of the <span className="font-bold">Primordial Toolkit</span> and stand out immediately.
             <br className="hidden sm:block" />
-            our world-class graphic designers to put your brand out there!
+            Use our world-class graphic designers to put your brand out there!
           </p>
         </div>
 
@@ -81,10 +81,10 @@ export default function PricingSection() {
               <div className="mb-4 flex justify-center items-center gap-3">
                 <img src="/Group.png" alt="Tag Icon" className="w-6 h-6" />
 
-                <h3 className="text-white text-lg sm:text-xl font-bold font-satoshi">{item.title}</h3>
+                <h3 className="text-white  font-bold font-satoshi text-[26.15px]">{item.title}</h3>
               </div>
               <Link href={item.href}>
-                <Button className="book_button bg-green-400 hover:bg-green-500 text-black font-bold py-2 sm:py-3 px-4 sm:px-6 rounded-lg w-full text-sm sm:text-base">
+                <Button className="book_button bg-green-400 hover:bg-green-500 text-black font-bold py-2 sm:py-3 px-4 sm:px-6 rounded-lg w-full text-sm sm:text-xl">
                   View Full Pricing
                 </Button>
               </Link>

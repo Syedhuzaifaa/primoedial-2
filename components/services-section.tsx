@@ -20,7 +20,7 @@ export default function ServicesSection() {
   ]
 
   return (
-    <section className=" py-12 sm:py-16 px-4 sm:px-8 relative z-30">
+    <section className=" mt-[-3rem] py-12 sm:py-16 px-4 sm:px-8 relative z-30">
       <div className="max-w-6xl mx-auto">
         {/* Badge */}
         <div className="flex justify-center mb-8 but_sections">

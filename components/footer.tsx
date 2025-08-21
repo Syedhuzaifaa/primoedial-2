@@ -19,7 +19,7 @@ export default function Footer() {
           <div className="flex items-center justify-center space-x-3 mb-4">
             <img src="/images/Group 1000001746.png" alt="" />
           </div>
-          <p className="consul-p-m text-base sm:text-lg max-w-2xl mx-auto leading-relaxed px-4 foot-p">
+          <p className="consul-p-m text-base sm:text-2xl max-w-3xl mx-auto leading-relaxed px-4 foot-p">
             Primordial is a design agency that focuses on freeing up valuable <br /> hours for clients to focus on high-impact
             business development
           </p>
@@ -29,7 +29,7 @@ export default function Footer() {
         <div className="flex justify-center items-center  mb-8 flex-wrap">
           {navigationLinks.map((link, index) => (
             <div key={link.name} className="flex items-center">
-              <a href={link.href} className=" footer-menu hover:text-[#013A33A3] text-[#013A33] transition-colors font-medium text-sm sm:text-base">
+              <a href={link.href} className=" footer-menu hover:text-[#013A33A3] text-[#013A33A3] transition-colors font-medium text-sm sm:text-base">
                 {link.name}
               </a>
               {index < navigationLinks.length - 1 && <span className="text-[#01594d] mx-2 sm:mx-4">•</span>}
@@ -38,7 +38,8 @@ export default function Footer() {
         </div>
 
         {/* Divider */}
-        <div className="border-t border-[#01594d] mb-8"></div>
+        <div className="border-t border-[#01594d] "
+        style={{ margin:"29px 235px"}}></div>
 
         {/* Contact Information */}
         <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-8 mb-8">

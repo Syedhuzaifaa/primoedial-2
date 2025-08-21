@@ -5,7 +5,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Check } from "lucide-react";
-
+import { Manrope } from "next/font/google";
 // interface PricingPlan {
 //   title: string;
 //   price: string;
@@ -38,6 +38,11 @@ interface PricingCardProps {
   plans: PricingPlan[];
 }
 
+const manrope = Manrope({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700", "800"],
+});
+
 export default function PricingCard({ plans }: PricingCardProps) {
   if (!plans || !Array.isArray(plans)) return null;
   return (
@@ -52,7 +57,7 @@ export default function PricingCard({ plans }: PricingCardProps) {
         >
           <CardContent className="p-16">
             <div className="mb-8">
-              <div className="text-[#01594d] mb-2 font-[Fustat] font-bold text-[42.13px] leading-[100%]">
+              <div className={`${manrope.className} text-[#01594d] mb-2 font-bold text-[42.13px] `}>
                 {plan.price}
                 <span
                   className="text-lg font-normal ml-2"
@@ -61,34 +66,13 @@ export default function PricingCard({ plans }: PricingCardProps) {
                   {plan.subtitle}
                 </span>
               </div>
+
               <h3 className="text-2xl font-bold text-[#01594d] font-satoshi">
                 {plan.title}
               </h3>
             </div>
 
             <div className="space-y-4 mb-8">
-              {/* {[plan.concepts, ...plan.features, plan.revisions].map(
-                (feature, idx) => (
-                  <div
-                    key={idx}
-                    className="flex items-center space-x-3"
-                  >
-                    <Check
-                      className="bg-[#0000001f] p-[3px] rounded-full w-5 h-5"
-                      style={{ color: plan.textColor }}
-                    />
-                    <span
-                      className={
-                        plan.highlight
-                          ? "text-[#01594d] font-medium"
-                          : "text-gray-700"
-                      }
-                    >
-                      {feature}
-                    </span>
-                  </div>
-                )
-              )} */}
               {[plan.concepts, ...plan.features, plan.revisions]
                 .filter(Boolean)
                 .map((feature, idx) => (

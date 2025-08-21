@@ -9,7 +9,7 @@ html {
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
   overflow-x: hidden;
-  padding-top: 20px;
+  /* padding-top: 20px; */
   background-color: #f3fbe6 !important;
 }
 
@@ -205,7 +205,14 @@ main {
 }
 
 .mian-con {
-  background-image: url('/images/Vector.png');
+      background-image: url("/images/Vector.png");
+    background-repeat: no-repeat;
+    background-size: cover;   /* makes it full screen */
+    background-position: bottom center; /* stick to top */
+    width: 100%;
+    /* top: -5rem; */
+    height: 117vh; /* full screen height */
+
 }
 .footer_cus{
   background-image: url('/images/Layer_1-1.png');
@@ -219,7 +226,7 @@ main {
   font-family: 'Rethink Sans', sans-serif;
   font-weight: 500;
   font-style: Bold;
-  font-size: 24.9px;
+  font-size: 24.9px !important;
   /* leading-trim: NONE; */
   line-height: 30.87px;
   letter-spacing: -0.22px;
@@ -230,7 +237,7 @@ main {
 
 .cus-ayesha {
   --tw-translate-y: -192% !important;
-  right: 154px;
+  right: 130px;
 }
 
 .heading_cus {
@@ -241,7 +248,7 @@ main {
   font-size: 75px;
   line-height: 82px;
   letter-spacing: -4px;
-  text-align: center;
+  /* text-align: center; */
   vertical-align: middle;
 }
 
@@ -315,7 +322,7 @@ main {
   font-family: 'Manrope', sans-serif;
   font-weight: 500;
   font-style: Medium;
-  font-size: 27.73px;
+  font-size: 24.73px !important;
   /* leading-trim: NONE; */
   line-height: 124%;
   letter-spacing: -3%;
@@ -349,7 +356,7 @@ vertical-align: middle;
   font-family: 'Manrope' , sans-serif; 
 font-weight: 500;
 font-style: Medium;
-font-size: 28.04px;
+font-size: 25px !important;
 /* leading-trim: NONE; */
 line-height: 34.69px;
 letter-spacing: -0.28px;

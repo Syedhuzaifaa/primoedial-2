@@ -158,13 +158,13 @@ export default function TestimonialsSection() {
 
         {/* Main Heading */}
         <div className="text-center mb-12 relative z-30">
-          <h2 className="text-3xl sm:text-4xl lg:text-6xl font-bold mb-6 leading-tight font-satoshi">
+          <h2 className="text-3xl sm:text-4xl lg:text-6xl capitalize  font-bold mb-6 leading-tight font-satoshi">
             <span className="text-[#01594d]">What do the </span>
             <span className="text-[#80D54B]">best creators</span>
             <span className="text-[#01594d]"> say about us</span>
           </h2>
-          <p className="text-lg sm:text-xl text-[#01594d] max-w-4xl mx-auto leading-relaxed px-4">
-            Our services are <span className="font-bold">endorsed by top industry leaders on LinkedIn</span>
+          <p className="text-lg sm:text-2xl text-[#01594d] max-w-4xl mx-auto leading-relaxed px-4">
+            Our services are <span className="font-semibold">endorsed by top industry leaders on LinkedIn</span>
           </p>
         </div>
 

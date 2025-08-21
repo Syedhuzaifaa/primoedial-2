@@ -32,14 +32,14 @@ export default function BrandGenesisSection() {
               <span className="text-[#01594d]">Pack Today!!</span>
             </h2>
 
-            <p className="text-lg sm:text-xl text-[#01594d] avail-p mb-8 leading-relaxed">
+            <p className="text-xl sm:text-xl text-[#01594d] avail-p mb-8 leading-relaxed">
               Your brand deserves a strong start.
               <br />
               Let <span className="font-bold">Primordial</span> Build it for you!
             </p>
             <a target="blank" href="https://api.whatsapp.com/send/?phone=447894683735&text&type=phone_number&app_absent=0">
-            <Button className="bg-[#01594d] hover:bg-green-800 text-white px-6 sm:px-8 py-3 sm:py-4 text-base sm:text-lg button_cuss rounded-xl shadow-lg">
-              Few slots left <span className="font-normal">for this month!</span>
+            <Button className=" bg-[#01594d] hover:bg-green-800 text-white px-6 sm:px-8 py-3 sm:py-4 text-base sm:text-lg button_cuss rounded-xl shadow-lg">
+              Few slots left <span className="font-normal ">for this month!</span>
             </Button>
             </a>
           </div>
@@ -47,7 +47,7 @@ export default function BrandGenesisSection() {
       </div>
 
       {/* Testimonials positioned around this section - Hidden on mobile */}
-      <Card className=" cus-card hidden xl:block absolute top-8 left-1/2 transform -translate-x-1/2 w-80 bg-white shadow-xl rounded-xl z-40">
+      <Card className=" cus-card hidden xl:block absolute top-8 left-[53rem] transform -translate-x-1/2 w-80 bg-white shadow-xl rounded-xl z-40">
         <CardContent className="p-2">
           <div className="flex items-start space-x-3">
             <Image
@@ -89,7 +89,7 @@ export default function BrandGenesisSection() {
         </CardContent>
       </Card>
 
-      <Card className="cus-card hidden xl:block absolute bottom-8 right-40 transform -translate-x-1/2 w-80 bg-white shadow-xl rounded-xl z-40">
+      <Card className="cus-card hidden xl:block absolute bottom-[2.5rem] right-[23rem] transform -translate-x-1/2 w-80 bg-white shadow-xl rounded-xl z-40">
         <CardContent className="p-2">
           <div className="flex items-start space-x-3">
             <Image

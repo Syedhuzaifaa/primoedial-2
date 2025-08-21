@@ -44,7 +44,7 @@ const handleFormSubmit = async (formData: FormData) => {
 
   return (
     <section className="py-12 sm:py-16 px-4 sm:px-16 relative z-30">
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-6xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-8 sm:gap-12 items-center">
           {/* Left Side - Content */}
           <div className="text-center lg:text-left">

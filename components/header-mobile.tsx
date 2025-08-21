@@ -12,9 +12,9 @@ export default function HeaderMobile() {
   const router = useRouter()
 
   return (
-    <header className="bg-[#01594d] lg:mx-[13rem]  text-white px-4 sm:px-8 py-2 rounded-2xl mx-4 sm:mx-8  relative z-50 shadow-lg">
-        <nav className="max-w-7xl mx-auto flex items-center justify-between">
-          <button
+     <header className="bg-[#01594d] lg:mx-[21rem]  text-white px-4 mt-[1.4rem] sm:px-8 py-2 rounded-2xl mx-4 sm:mx-8  relative z-50 shadow-lg">
+      <nav className="max-w-7xl mx-auto flex items-center justify-between">
+               <button
             onClick={() => {
               router.push("/")
               setTimeout(() => {
@@ -48,21 +48,27 @@ export default function HeaderMobile() {
               {isDropdownOpen && (
                 <div className="absolute top-full left-0 mt-2 bg-[#01594d] rounded-lg shadow-xl py-2 w-48 z-50 border border-green-600">
                   <Link href="/website-design" className="block px-4 py-3 hover:bg-green-700 transition-colors text-sm">
-                    Website Design
-                  </Link>
-                  <Link href="/logo-design" className="block px-4 py-3 hover:bg-green-700 transition-colors text-sm">
-                    Logo Design
-                  </Link>
-                  <Link href="/thumbnail-design" className="block px-4 py-3 hover:bg-green-700 transition-colors text-sm">
-                    Thumbnail Design
-                  </Link>
-                  <Link href="/carousel-designs" className="block px-4 py-3 hover:bg-green-700 transition-colors text-sm">
-                    Carousel Designs
-                  </Link>
+                  Website Design
+                </Link>
+                <Link href="/logo-design" className="block px-4 py-3 hover:bg-green-700 transition-colors text-sm">
+                  Logo Design
+                </Link>
+                <Link href="/thumbnail-design" className="block px-4 py-3 hover:bg-green-700 transition-colors text-sm">
+                  Thumbnail Design
+                </Link>
+                <Link href="/carousel-designs" className="block px-4 py-3 hover:bg-green-700 transition-colors text-sm">
+                  Carousel Designs
+                </Link>
+                  <Link href="/li-profile-rebrand" className="block px-4 py-3 hover:bg-green-700 transition-colors text-sm">
+                  Li Profile Rebrand
+                </Link>
+                  <Link href="/cheatsheets" className="block px-4 py-3 hover:bg-green-700 transition-colors text-sm">
+                  Cheatsheets
+                </Link>
                 </div>
               )}
             </div>
-            <Link href="#" className="hover:text-green-300 transition-colors font-medium">
+            <Link href="/#pricing" className="hover:text-green-300 transition-colors font-medium">
               Portfolio
             </Link>
           </div>
@@ -82,21 +88,27 @@ export default function HeaderMobile() {
         {isMobileMenuOpen && (
           <div className="lg:hidden mt-4 pb-4 border-t border-green-600">
             <div className="flex flex-col space-y-4 mt-4">
-              <Link href="/" className="hover:text-green-300 transition-colors font-medium">
-                Home
-              </Link>
-              <Link href="/website-design" className="hover:text-green-300 transition-colors font-medium">
-                Website Design
-              </Link>
-              <Link href="/logo-design" className="hover:text-green-300 transition-colors font-medium">
-                Logo Design
-              </Link>
-              <Link href="/thumbnail-design" className="hover:text-green-300 transition-colors font-medium">
-                Thumbnail Design
-              </Link>
-              <Link href="/carousel-designs" className="hover:text-green-300 transition-colors font-medium">
-                Carousel Designs
-              </Link>
+             <Link href="/" className="hover:text-green-300 transition-colors font-medium">
+              Home
+            </Link>
+            <Link href="/website-design" className="hover:text-green-300 transition-colors font-medium">
+              Website Design
+            </Link>
+            <Link href="/logo-design" className="hover:text-green-300 transition-colors font-medium">
+              Logo Design
+            </Link>
+            <Link href="/thumbnail-design" className="hover:text-green-300 transition-colors font-medium">
+              Thumbnail Design
+            </Link>
+            <Link href="/carousel-designs" className="hover:text-green-300 transition-colors font-medium">
+              Carousel Designs
+            </Link>
+            <Link href="/li-profile-rebrand" className="hover:text-green-300 transition-colors font-medium">
+              Li Profile Rebrand
+            </Link>
+            <Link href="/cheatsheets" className="hover:text-green-300 transition-colors font-medium">
+              Cheatsheets
+            </Link>
               <Button className="book_button bg-green-400 hover:bg-green-500 text-black font-semibold px-6 py-2 rounded-lg shadow-md w-full">
                 Book A Call
               </Button>

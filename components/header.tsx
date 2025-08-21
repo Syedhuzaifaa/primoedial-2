@@ -10,10 +10,10 @@ export default function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
 
   return (
-      <header className="bg-[#01594d] lg:mx-[13rem]  text-white px-4 sm:px-8 py-2 rounded-2xl mx-4 sm:mx-8  relative z-50 shadow-lg">
+    <header className="bg-[#01594d] lg:mx-[21rem]  text-white px-4 sm:px-8 py-2 rounded-2xl mx-4 sm:mx-8  relative z-50 shadow-lg">
       <nav className="max-w-7xl mx-auto flex items-center justify-between">
         <div className="flex items-center space-x-2">
-        <img src="/images/Group 48097818.png" alt="" width={140} height={25} />
+          <img src="/images/Group 48097818.png" alt="" width={140} height={25} />
         </div>
 
         {/* Desktop Navigation */}
@@ -45,20 +45,26 @@ export default function Header() {
                 <Link href="/carousel-designs" className="block px-4 py-3 hover:bg-green-700 transition-colors text-sm">
                   Carousel Designs
                 </Link>
+                <Link href="/li-profile-rebrand" className="block px-4 py-3 hover:bg-green-700 transition-colors text-sm">
+                  Li Profile Rebrand
+                </Link>
+                <Link href="/cheatsheets" className="block px-4 py-3 hover:bg-green-700 transition-colors text-sm">
+                  Cheatsheets
+                </Link>
               </div>
             )}
           </div>
 
-          <Link href="#" className="hover:text-green-300 transition-colors font-medium">
+          <Link href="/#pricing" className="hover:text-green-300 transition-colors font-medium">
             Portfolio
           </Link>
         </div>
 
         {/* Desktop CTA Button */}
         <a href="https://topmate.io/obeidullahsiddiqui/">
-        <Button className="book_button hidden lg:block  hover:bg-green-500 text-black font-semibold px-6 py-2 rounded-lg shadow-md">
-          Book A Call
-        </Button>
+          <Button className="book_button hidden lg:block  hover:bg-green-500 text-black font-semibold px-6 py-2 rounded-lg shadow-md">
+            Book A Call
+          </Button>
         </a>
 
         {/* Mobile Menu Button */}
@@ -74,7 +80,7 @@ export default function Header() {
       {isMobileMenuOpen && (
         <div className="lg:hidden mt-4 pb-4 border-t border-green-600">
           <div className="flex flex-col space-y-4 mt-4">
-            <Link href="#" className="hover:text-green-300 transition-colors font-medium">
+            <Link href="/" className="hover:text-green-300 transition-colors font-medium">
               Home
             </Link>
             <Link href="/website-design" className="hover:text-green-300 transition-colors font-medium">
@@ -83,9 +89,21 @@ export default function Header() {
             <Link href="/logo-design" className="hover:text-green-300 transition-colors font-medium">
               Logo Design
             </Link>
-            <Link href="#" className="hover:text-green-300 transition-colors font-medium">
-              Portfolio
+            <Link href="/thumbnail-design" className="hover:text-green-300 transition-colors font-medium">
+              Thumbnail Design
             </Link>
+            <Link href="/carousel-designs" className="hover:text-green-300 transition-colors font-medium">
+              Carousel Designs
+            </Link>
+            <Link href="/li-profile-rebrand" className="hover:text-green-300 transition-colors font-medium">
+              Li Profile Rebrand
+            </Link>
+            <Link href="/cheatsheets" className="hover:text-green-300 transition-colors font-medium">
+              Cheatsheets
+            </Link>
+            {/* <Link href="#" className="hover:text-green-300 transition-colors font-medium">
+              Portfolio
+            </Link> */}
             <Button className="book_button hover:bg-green-500 text-black font-semibold px-6 py-2 rounded-lg shadow-md w-full">
               Book A Call
             </Button>
