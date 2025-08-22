@@ -474,9 +474,11 @@ main {
   text-align: center;
 
 }
+
 .avail-h {
-    text-transform: capitalize;
-  }
+  text-transform: capitalize;
+}
+
 @media (max-width: 639px) {
   .p-cus {
     font-size: 16px;
@@ -491,8 +493,14 @@ main {
   .avail-p {
     font-size: 18px !important;
   }
+
   .button_cuss {
     font-size: 17.9px !important;
     padding: 20px 17px !important;
-}
+  }
+
+  .mian-con {
+
+    height: 85vh;
+  }
 }
