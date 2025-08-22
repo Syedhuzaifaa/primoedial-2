@@ -36,7 +36,7 @@ export default function ServicesSection() {
 
         {/* Main Heading */}
         <div className="text-start mb-12">
-          <h2 className="text-3xl sm:text-4xl lg:text-6xl font-bold mb-6 leading-tight font-satoshi">
+          <h2 className="text-3xl sm:text-4xl avail-h lg:text-6xl font-bold mb-6 leading-tight font-satoshi">
             <span className="text-[#01594d]">How Can We Help You To</span>
             <br />
             <span className="text-[#01594d]">Create </span>

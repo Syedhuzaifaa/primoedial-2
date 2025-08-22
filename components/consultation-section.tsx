@@ -60,7 +60,7 @@ const handleFormSubmit = async (formData: FormData) => {
               </div>
             </div>
 
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 leading-tight font-satoshi">
+            <h2 className=" avail-h text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 leading-tight font-satoshi">
               <span className="text-[#01594d]">Interested In</span>
               <br />
               <span className="text-[#80D54B]">working with us?</span>

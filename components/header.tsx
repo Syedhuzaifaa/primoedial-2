@@ -61,7 +61,7 @@ export default function Header() {
         </div>
 
         {/* Desktop CTA Button */}
-        <a href="https://topmate.io/obeidullahsiddiqui/">
+        <a href="https://topmate.io/obeidullahsiddiqui/" target="blank">
           <Button className="book_button hidden lg:block  hover:bg-green-500 text-black font-semibold px-6 py-2 rounded-lg shadow-md">
             Book A Call
           </Button>
@@ -104,9 +104,12 @@ export default function Header() {
             {/* <Link href="#" className="hover:text-green-300 transition-colors font-medium">
               Portfolio
             </Link> */}
+                    <a href="https://topmate.io/obeidullahsiddiqui/" target="blank">
             <Button className="book_button hover:bg-green-500 text-black font-semibold px-6 py-2 rounded-lg shadow-md w-full">
               Book A Call
             </Button>
+                        </a>
+
           </div>
         </div>
       )}

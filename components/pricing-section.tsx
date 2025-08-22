@@ -58,7 +58,7 @@ export default function PricingSection() {
 
         {/* Main Heading */}
         <div className="text-center mb-12">
-          <h2 className="text-3xl sm:text-4xl lg:text-6xl font-bold mb-6 leading-tight font-satoshi capitalize   text-Uppercase">
+          <h2 className="text-3xl avail-h sm:text-4xl lg:text-6xl font-bold mb-6 leading-tight font-satoshi capitalize   text-Uppercase">
             <span className="text-[#01594d]">Experience the creative origin of</span>
             <br />
             <span className="text-[#01594d]">designs at the </span>

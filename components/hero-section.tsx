@@ -33,10 +33,10 @@ export default function HeroSection({ onViewPricing }: HeroSectionProps) {
   return (
     <>
       {/* Main Hero Content */}
-      <div className="mian-con min-h-[76vh] sm:min-h-[87vh] pt-[20px]">
+      <div className="mian-con min-h-[76vh] mb-[1rem]  sm:min-h-[87vh] pt-[20px]">
         <Header />
 
-        <main className=" flex items-center justify-center sm:mt-[7rem] sm:mb-[5rem]  px-4 sm:px-8 relative z-30">
+        <main className=" flex items-center justify-center mt-[3rem] mb-[2rem]   sm:mt-[7rem] sm:mb-[5rem]  px-4 sm:px-8 relative z-30">
           <div className="max-w-4xl mx-auto text-center">
             {/* Profile Images Row */}
             <div className="flex flex-col md:flex-row justify-between items-center md:items-start gap-2 lg:gap-6 lg:px-[13rem]   ">

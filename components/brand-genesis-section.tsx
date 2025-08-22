@@ -24,7 +24,7 @@ export default function BrandGenesisSection() {
 
           {/* Right Side - Main Content */}
           <div className="text-center lg:text-left order-1 lg:order-2">
-            <h2 className="heading_cus text-3xl sm:text-5xl lg:text-7xl font-bold mb-6 leading-tight mt-4 font-satoshi leading-custom-sm">
+            <h2 className="heading_cus avail-h text-3xl sm:text-5xl lg:text-7xl font-bold mb-6 leading-tight mt-4 font-satoshi leading-custom-sm">
               <span className="text-[#01594d]">Avail our</span>
               <br />
               <span className="text-[#80D54B]">Brand Genesis</span>

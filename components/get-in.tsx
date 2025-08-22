@@ -8,7 +8,7 @@ export default function GetIN() {
   return (
     <section className="py-12 sm:py-16 px-4 sm:px-8 relative z-30">
       <div className="max-w-4xl mx-auto text-center">
-        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 leading-tight font-satoshi">
+        <h2 className="text-3xl avail-h sm:text-4xl lg:text-5xl font-bold mb-6 leading-tight font-satoshi">
           <span className="text-[#01594d]">Want To Get In</span>
           <br />
           <span className="text-[#80D54B]">Touch With Us?</span>
@@ -20,7 +20,7 @@ export default function GetIN() {
           <span className="text-[01594d]-600 font-semibold">fill our personalized branding questionnaire!</span>
         </p>
 
-        <Button className="bg-[#01594d] hover:bg-green-800 text-white px-6 sm:px-8 py-3 sm:py-4 text-base sm:text-lg button_cuss rounded-xl shadow-lg"
+        <Button className="bg-[#01594d] hover:bg-green-800 text-white px-6 sm:px-8 py-6 sm:py-4 text-base sm:text-lg  rounded-xl shadow-lg"
                       style={{ boxShadow: "#c1c1c1f0 14px 14px 14px 5px" }}>
           <div className="flex items-center space-x-3">
             <div className="w-6 h-6 bg-white rounded-full flex items-center justify-center">

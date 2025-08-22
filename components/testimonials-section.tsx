@@ -158,7 +158,7 @@ export default function TestimonialsSection() {
 
         {/* Main Heading */}
         <div className="text-center mb-12 relative z-30">
-          <h2 className="text-3xl sm:text-4xl lg:text-6xl capitalize  font-bold mb-6 leading-tight font-satoshi">
+          <h2 className="text-3xl sm:text-4xl avail-h lg:text-6xl capitalize  font-bold mb-6 leading-tight font-satoshi">
             <span className="text-[#01594d]">What do the </span>
             <span className="text-[#80D54B]">best creators</span>
             <span className="text-[#01594d]"> say about us</span>
