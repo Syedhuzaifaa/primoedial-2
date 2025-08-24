@@ -17,29 +17,29 @@ export default function ConsultationSection() {
   })
 
 
-const handleFormSubmit = async (formData: FormData) => {
-  setFormState({ loading: true, message: "", success: false })
+  const handleFormSubmit = async (formData: FormData) => {
+    setFormState({ loading: true, message: "", success: false })
 
-  const result = await submitContactForm(formData)
+    const result = await submitContactForm(formData)
 
-  setFormState({
-    loading: false,
-    message: result.message,
-    success: result.success,
-  })
+    setFormState({
+      loading: false,
+      message: result.message,
+      success: result.success,
+    })
 
-  // Show toast
-  if (result.success) {
-    toast.success("Email sent successfully!")
-  } else {
-    toast.error(result.message || "Something went wrong!")
+    // Show toast
+    if (result.success) {
+      toast.success("Email sent successfully!")
+    } else {
+      toast.error(result.message || "Something went wrong!")
+    }
+
+    // Clear message after 5 seconds (optional)
+    setTimeout(() => {
+      setFormState((prev) => ({ ...prev, message: "" }))
+    }, 5000)
   }
-
-  // Clear message after 5 seconds (optional)
-  setTimeout(() => {
-    setFormState((prev) => ({ ...prev, message: "" }))
-  }, 5000)
-}
 
 
   return (
@@ -49,17 +49,17 @@ const handleFormSubmit = async (formData: FormData) => {
           {/* Left Side - Content */}
           <div className="text-center lg:text-left">
             {/* Badge */}
-            <div className="flex justify-center mx-auto sm:mx-0 mb-8 but_sections">
-              <div className="  px-6 py-3 shadow-sm">
+          
+            <div className="flex justify-center mx-auto sm:mx-0 mb-8 but_sections but_section1">
+              <div className="  px-6 py-3 shadow-sm but_section2">
                 <div className="flex items-center space-x-2">
                   <div className="flex items-center justify-center">
-                    <img src="/Group.png" alt="Tag Icon" className="w-6 h-6" />
+                    <img src="/Group.png" alt="Tag Icon" className="w-6 h-6 but_section3" />
                   </div>
-                  <span className="but_t">Consultation Call</span>
+                  <span className="but_t but_section4">Consultation Call</span>
                 </div>
               </div>
             </div>
-
             <h2 className=" avail-h text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 leading-tight font-satoshi">
               <span className="text-[#01594d]">Interested In</span>
               <br />

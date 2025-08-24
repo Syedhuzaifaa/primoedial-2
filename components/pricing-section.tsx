@@ -44,17 +44,16 @@ export default function PricingSection() {
     >
       <div className="max-w-6xl mx-auto">
         {/* Badge */}
-        <div className="flex mx-auto justify-center mb-8 but_sections">
-          <div className="  px-6 py-3 shadow-sm">
+        <div className="flex justify-center mb-8 mx-auto but_sections but_section1">
+          <div className="  px-6 py-3 shadow-sm but_section2">
             <div className="flex items-center space-x-2">
               <div className="flex items-center justify-center">
-                <img src="/Group.png" alt="Tag Icon" className="w-6 h-6" />
+                <img src="/Group.png" alt="Tag Icon" className="w-6 h-6 but_section3" />
               </div>
-              <span className="but_t">Pricing Section</span>
+              <span className="but_t but_section4">Pricing Section</span>
             </div>
           </div>
         </div>
-
 
         {/* Main Heading */}
         <div className="text-center mb-12">

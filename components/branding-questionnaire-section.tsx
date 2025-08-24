@@ -71,7 +71,7 @@ export default function BrandingQuestionnaireSection() {
             </div>
             <a target="blank" href="https://api.whatsapp.com/send/?phone=447894683735&text&type=phone_number&app_absent=0">
               <Button className="bg-[#01594d] hover:bg-green-800 text-white px-6 sm:px-8 py-3 sm:py-4 text-base sm:text-lg button_cuss rounded-xl shadow-lg"
-              style={{ boxShadow: "#c1c1c1f0 14px 14px 14px 5px" }}>
+              style={{ boxShadow: "#c1c1c1f0 4px 4px 14px 3px" }}>
                 Get in Touch with us
               </Button>
             </a>

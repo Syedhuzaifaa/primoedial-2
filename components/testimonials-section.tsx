@@ -23,18 +23,7 @@ const testimonials = {
       title: "Business Owner",
       image: "/placeholder.svg?height=50&width=50",
     },
-    // {
-    //   text: "Working with Obeidullah has been fantastic. His attention to detail and creative vision exceeded my expectations.",
-    //   name: "Michael Chen",
-    //   title: "Marketing Director",
-    //   image: "/placeholder.svg?height=50&width=50",
-    // },
-    // {
-    //   text: "Professional, creative, and always on time. Obeidullah transformed our brand identity completely.",
-    //   name: "Emma Rodriguez",
-    //   title: "Startup Founder",
-    //   image: "/placeholder.svg?height=50&width=50",
-    // },
+   
   ],
   column2: [
     {
@@ -145,13 +134,13 @@ export default function TestimonialsSection() {
 
       <div className="max-w-6xl mx-auto">
         {/* Badge */}
-        <div className="flex mx-auto justify-center mb-8 but_sections">
-          <div className="  px-6 py-3 shadow-sm">
+       <div className="flex justify-center mb-8 mx-auto but_sections but_section1">
+          <div className="  px-6 py-3 shadow-sm but_section2">
             <div className="flex items-center space-x-2">
               <div className="flex items-center justify-center">
-                <img src="/Group.png" alt="Tag Icon" className="w-6 h-6" />
+                <img src="/Group.png" alt="Tag Icon" className="w-6 h-6 but_section3" />
               </div>
-              <span className="but_t">Testimonials</span>
+              <span className="but_t but_section4">Testimonials</span>
             </div>
           </div>
         </div>

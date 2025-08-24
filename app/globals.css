@@ -590,7 +590,20 @@ header {
     line-height: 49.77px !important;
     text-transform: capitalize;
   }
-
+  .but_section1{
+    width: 40%;
+    border-radius: 8px;
+  }
+  .but_section2{
+       padding: 4px 2px;
+  }
+  .but_section3{
+        width: 1rem;
+        height: 1rem;
+  }
+  .but_section4{
+        font-size: 13px;
+  }
   .avail-p {
     font-size: 18px !important;
   }
@@ -602,6 +615,6 @@ header {
 
   .mian-con {
 
-    height: 100vh;
+    height: 87vh;
   }
 }
