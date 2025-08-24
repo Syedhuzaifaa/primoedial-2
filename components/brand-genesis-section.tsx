@@ -47,8 +47,8 @@ export default function BrandGenesisSection() {
       </div>
 
       {/* Testimonials positioned around this section - Hidden on mobile */}
-      <Card className=" cus-card hidden xl:block absolute top-8 left-[53rem] transform -translate-x-1/2 w-80 bg-white shadow-xl rounded-xl z-40">
-        <CardContent className="p-2">
+      <Card className=" cus-card hidden fatima-avail lg:block absolute top-8 left-[53rem] transform -translate-x-1/2 w-80 bg-white shadow-xl rounded-xl z-40">
+        <CardContent className="p-1">
           <div className="flex items-start space-x-3">
             <Image
               src="/images/Ellipse746.png?height=50&width=50"
@@ -59,7 +59,7 @@ export default function BrandGenesisSection() {
             />
             <div>
               <h4 className="font-bold test-h text-gray-800 font-satoshi">Fatima Khan</h4>
-              <p className="test-p text-gray-600 mt-1 leading-relaxed">
+              <p className="test-p text-gray-600 leading-relaxed">
                 His Work Ethic Is What Impresses Me The Most. I've Worked With Many Designers In The Past, And Let Me
                 Tell You - Obedullah's A Champ!
               </p>
@@ -68,8 +68,8 @@ export default function BrandGenesisSection() {
         </CardContent>
       </Card>
 
-      <Card className="cus-card hidden xl:block absolute top-24 right-8 w-80 bg-white shadow-xl rounded-xl z-40">
-        <CardContent className="p-2">
+      <Card className="cus-card hidden ayesa-avail lg:block absolute top-24 right-8 w-80 bg-white shadow-xl rounded-xl z-40">
+        <CardContent className="p-1">
           <div className="flex items-start space-x-3">
             <Image
               src="/images/Ellipse74.png?height=50&width=50"
@@ -80,7 +80,7 @@ export default function BrandGenesisSection() {
             />
             <div>
               <h4 className="font-bold test-h text-gray-800 font-satoshi">Ayesha Ameer</h4>
-              <p className="test-p text-gray-600 mt-1 leading-relaxed">
+              <p className="test-p text-gray-600 leading-relaxed">
                 If You're Looking For Someone To Elevate Your LinkedIn Profile Or Assist With Design Projects, I Highly
                 Recommend Him
               </p>
@@ -89,8 +89,8 @@ export default function BrandGenesisSection() {
         </CardContent>
       </Card>
 
-      <Card className="cus-card hidden xl:block absolute bottom-[2.5rem] right-[23rem] transform -translate-x-1/2 w-80 bg-white shadow-xl rounded-xl z-40">
-        <CardContent className="p-2">
+      <Card className="cus-card hidden charlie-avail lg:block absolute bottom-[2.5rem] right-[23rem] transform -translate-x-1/2 w-80 bg-white shadow-xl rounded-xl z-40">
+        <CardContent className="p-1">
           <div className="flex items-start space-x-3">
             <Image
               src="/images/Ellipse72.png?height=50&width=50"
@@ -101,7 +101,7 @@ export default function BrandGenesisSection() {
             />
             <div>
               <h4 className="font-bold test-h text-gray-800 font-satoshi">Charlie Hills</h4>
-              <p className="test-p text-gray-600 mt-1 leading-relaxed">
+              <p className="test-p text-gray-600 leading-relaxed">
                 I'm Working Closely With Him, Speaking With Him Most Days. He's A Great Person, He's Super Hardworking,
                 Super Easy To Get Along With
               </p>

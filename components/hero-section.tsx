@@ -39,7 +39,7 @@ export default function HeroSection({ onViewPricing }: HeroSectionProps) {
         <main className=" flex items-center justify-center mt-[3rem] mb-[2rem]   sm:mt-[7rem] sm:mb-[5rem]  px-4 sm:px-8 relative z-30">
           <div className="max-w-4xl mx-auto text-center">
             {/* Profile Images Row */}
-            <div className="flex flex-col md:flex-row justify-between items-center md:items-start gap-2 lg:gap-6 lg:px-[13rem]   ">
+            <div className="flex flex-col md:flex-row justify-center items-center md:items-start gap-2 lg:gap-6 lg:px-[13rem]   ">
               {/* Profile Avatars */}
               <div className="flex justify-center items-center mb-4 md:mb-0 overflow-visible">
                 {profileGroups.map((imageSet, index) => (
@@ -122,7 +122,7 @@ export default function HeroSection({ onViewPricing }: HeroSectionProps) {
       <TestimonialCard
         name="Charlie Hills"
         text="I'm Working Closely With Him, Speaking With Him Most Days. He's A Great Person, He's Super Hardworking, Super Easy To Get Along With"
-        className={`hidden lg:block absolute top-[9rem]  cus-card right-[13rem] w-80 bg-white shadow-xl rounded-xl transform transition-all duration-1000 ${testimonialsVisible ? "translate-x-0 opacity-100" : "translate-x-full opacity-0"
+        className={`hidden Charlie lg:block absolute top-[9rem]  cus-card right-[13rem] w-80 bg-white shadow-xl rounded-xl transform transition-all duration-1000 ${testimonialsVisible ? "translate-x-0 opacity-100" : "translate-x-full opacity-0"
           } delay-20 z-40`}
         image="/images/Ellipse72.png"
 
@@ -131,7 +131,7 @@ export default function HeroSection({ onViewPricing }: HeroSectionProps) {
       <TestimonialCard
         name="Fatima Khan"
         text="His Work Ethic Is What Impresses Me The Most. I've Worked With Many Designers In The Past, And Let Me Tell You - Obedullah's A Champ!"
-        className={`hidden lg:block absolute top-44 cus-card left-8 translate-y-60 w-80 bg-white shadow-xl rounded-xl transform transition-all duration-1000 ${testimonialsVisible ? "translate-x-0 opacity-100" : "-translate-x-full opacity-0"
+        className={`hidden lg:block Fatima absolute top-44 cus-card left-8 translate-y-60 w-80 bg-white shadow-xl rounded-xl transform transition-all duration-1000 ${testimonialsVisible ? "translate-x-0 opacity-100" : "-translate-x-full opacity-0"
           } delay-20 z-40`}
         image="/images/Ellipse746.png"
 

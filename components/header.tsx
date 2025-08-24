@@ -10,7 +10,9 @@ export default function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
 
   return (
-    <header className="bg-[#01594d] lg:mx-[21rem]  text-white px-4 sm:px-8 py-2 rounded-2xl mx-4 sm:mx-8  relative z-50 shadow-lg">
+    <div className="header-class">
+
+    <header className="bg-[#01594d] text-white px-4 sm:px-8 py-2 rounded-2xl   relative z-50 shadow-lg">
       <nav className="max-w-7xl mx-auto flex items-center justify-between">
         <div className="flex items-center space-x-2">
           <img src="/images/Group 48097818.png" alt="" width={140} height={25} />
@@ -104,15 +106,17 @@ export default function Header() {
             {/* <Link href="#" className="hover:text-green-300 transition-colors font-medium">
               Portfolio
             </Link> */}
-                    <a href="https://topmate.io/obeidullahsiddiqui/" target="blank">
-            <Button className="book_button hover:bg-green-500 text-black font-semibold px-6 py-2 rounded-lg shadow-md w-full">
-              Book A Call
-            </Button>
-                        </a>
+            <a href="https://topmate.io/obeidullahsiddiqui/" target="blank">
+              <Button className="book_button hover:bg-green-500 text-black font-semibold px-6 py-2 rounded-lg shadow-md w-full">
+                Book A Call
+              </Button>
+            </a>
 
           </div>
         </div>
       )}
     </header>
+    </div>
+
   )
 }
